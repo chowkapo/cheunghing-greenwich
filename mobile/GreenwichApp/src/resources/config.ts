@@ -1,5 +1,5 @@
-export const acsBaseUrl = 'http://113.212.233.24:8080/CHECOLACS/';
-export const imsBaseUrl = 'http://113.212.233.24:8081/CHECOLIMS/';
+export const acsBaseUrl = 'http://localhost:8080/CHECOLACS/';
+export const imsBaseUrl = 'http://localhost:8081/CHECOLIMS/';
 
 export const screensPerRow = 4;
 export const doorAccessQueryCount = 10;
@@ -58,5 +58,5 @@ export const locatorAdjustment = {
 
 export const defaultRefreshFrequency = 1000;
 
-// export const vlcPlayerInitOptions = ['--rtsp-tcp=true'];
-export const vlcPlayerInitOptions = [];
+export const vlcPlayerInitOptions = ['--rtsp-tcp=true'];
+// export const vlcPlayerInitOptions = [];

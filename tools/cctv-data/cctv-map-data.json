@@ -1,0 +1,78 @@
+const cctvMapData: {
+    [id: string]: {
+      id: string;
+      name: string;
+      src: any;
+      width: number;
+      height: number;
+    }
+  } = {
+  "gf": {
+    "name": "gf",
+    "src": require('../cctv_map_images/gf.png.png'),
+    "width": 1200,
+    "height": 611
+  },
+  "1f": {
+    "name": "1f",
+    "src": require('../cctv_map_images/1f.png.png'),
+    "width": 1200,
+    "height": 430
+  },
+  "2f": {
+    "name": "2f",
+    "src": require('../cctv_map_images/2f.png.png'),
+    "width": 1200,
+    "height": 436
+  },
+  "3f": {
+    "name": "3f",
+    "src": require('../cctv_map_images/3f.png.png'),
+    "width": 1200,
+    "height": 381
+  },
+  "5-15f": {
+    "name": "5-15f",
+    "src": require('../cctv_map_images/5-15f.png.png'),
+    "width": 1200,
+    "height": 382
+  },
+  "16f": {
+    "name": "16f",
+    "src": require('../cctv_map_images/16f.png.png'),
+    "width": 1200,
+    "height": 381
+  },
+  "17f": {
+    "name": "17f",
+    "src": require('../cctv_map_images/17f.png.png'),
+    "width": 1200,
+    "height": 381
+  },
+  "18-31f": {
+    "name": "18-31f",
+    "src": require('../cctv_map_images/18-31f.png.png'),
+    "width": 1200,
+    "height": 381
+  },
+  "32f": {
+    "name": "32f",
+    "src": require('../cctv_map_images/32f.png.png'),
+    "width": 1200,
+    "height": 382
+  },
+  "rf": {
+    "name": "rf",
+    "src": require('../cctv_map_images/rf.png.png'),
+    "width": 1200,
+    "height": 381
+  },
+  "ugf": {
+    "name": "ugf",
+    "src": require('../cctv_map_images/ugf.png.png'),
+    "width": 1200,
+    "height": 543
+  }
+}
+export default cctvMapData
+

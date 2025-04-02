@@ -1,0 +1,7 @@
+{
+  "name": "lift-data",
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

@@ -1,0 +1,1192 @@
+[
+  {
+    "modbusChannelId": 1,
+    "channelName": "L01-故障",
+    "liftNumber": "L01",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 2,
+    "channelName": "L01-服務中",
+    "liftNumber": "L01",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 3,
+    "channelName": "L01-警鐘",
+    "liftNumber": "L01",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 4,
+    "channelName": "L01-正常電源",
+    "liftNumber": "L01",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 5,
+    "channelName": "L01-緊急電源",
+    "liftNumber": "L01",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 6,
+    "channelName": "L02-故障",
+    "liftNumber": "L02",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 7,
+    "channelName": "L02-服務中",
+    "liftNumber": "L02",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 8,
+    "channelName": "L02-警鐘",
+    "liftNumber": "L02",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 9,
+    "channelName": "L02-正常電源",
+    "liftNumber": "L02",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 10,
+    "channelName": "L02-緊急電源",
+    "liftNumber": "L02",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 11,
+    "channelName": "L03-故障",
+    "liftNumber": "L03",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 12,
+    "channelName": "L03-服務中",
+    "liftNumber": "L03",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 13,
+    "channelName": "L03-警鐘",
+    "liftNumber": "L03",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 14,
+    "channelName": "L03-正常電源",
+    "liftNumber": "L03",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 15,
+    "channelName": "L03-緊急電源",
+    "liftNumber": "L03",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 16,
+    "channelName": "L04-故障",
+    "liftNumber": "L04",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 17,
+    "channelName": "L04-服務中",
+    "liftNumber": "L04",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 18,
+    "channelName": "L04-警鐘",
+    "liftNumber": "L04",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 19,
+    "channelName": "L04-正常電源",
+    "liftNumber": "L04",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 20,
+    "channelName": "L04-緊急電源",
+    "liftNumber": "L04",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 21,
+    "channelName": "L05-故障",
+    "liftNumber": "L05",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 22,
+    "channelName": "L05-服務中",
+    "liftNumber": "L05",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 23,
+    "channelName": "L05-警鐘",
+    "liftNumber": "L05",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 24,
+    "channelName": "L05-正常電源",
+    "liftNumber": "L05",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 25,
+    "channelName": "L05-緊急電源",
+    "liftNumber": "L05",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 26,
+    "channelName": "L06-故障",
+    "liftNumber": "L06",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 27,
+    "channelName": "L06-服務中",
+    "liftNumber": "L06",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 28,
+    "channelName": "L06-警鐘",
+    "liftNumber": "L06",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 29,
+    "channelName": "L06-正常電源",
+    "liftNumber": "L06",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 30,
+    "channelName": "L06-緊急電源",
+    "liftNumber": "L06",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 31,
+    "channelName": "L07-故障",
+    "liftNumber": "L07",
+    "signalType": "故障",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 32,
+    "channelName": "L07-服務中",
+    "liftNumber": "L07",
+    "signalType": "服務中",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 33,
+    "channelName": "L07-警鐘",
+    "liftNumber": "L07",
+    "signalType": "警鐘",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 34,
+    "channelName": "L07-正常電源",
+    "liftNumber": "L07",
+    "signalType": "正常電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 35,
+    "channelName": "L07-緊急電源",
+    "liftNumber": "L07",
+    "signalType": "緊急電源",
+    "locationMask": 192
+  },
+  {
+    "modbusChannelId": 36,
+    "channelName": "L08-故障",
+    "liftNumber": "L08",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 37,
+    "channelName": "L08-服務中",
+    "liftNumber": "L08",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 38,
+    "channelName": "L08-警鐘",
+    "liftNumber": "L08",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 39,
+    "channelName": "L08-正常電源",
+    "liftNumber": "L08",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 40,
+    "channelName": "L08-緊急電源",
+    "liftNumber": "L08",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 41,
+    "channelName": "L09-故障",
+    "liftNumber": "L09",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 42,
+    "channelName": "L09-服務中",
+    "liftNumber": "L09",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 43,
+    "channelName": "L09-警鐘",
+    "liftNumber": "L09",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 44,
+    "channelName": "L09-正常電源",
+    "liftNumber": "L09",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 45,
+    "channelName": "L09-緊急電源",
+    "liftNumber": "L09",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 46,
+    "channelName": "L10-故障",
+    "liftNumber": "L10",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 47,
+    "channelName": "L10-服務中",
+    "liftNumber": "L10",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 48,
+    "channelName": "L10-警鐘",
+    "liftNumber": "L10",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 49,
+    "channelName": "L10-正常電源",
+    "liftNumber": "L10",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 50,
+    "channelName": "L10-緊急電源",
+    "liftNumber": "L10",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 51,
+    "channelName": "L11-故障",
+    "liftNumber": "L11",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 52,
+    "channelName": "L11-服務中",
+    "liftNumber": "L11",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 53,
+    "channelName": "L11-警鐘",
+    "liftNumber": "L11",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 54,
+    "channelName": "L11-正常電源",
+    "liftNumber": "L11",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 55,
+    "channelName": "L11-緊急電源",
+    "liftNumber": "L11",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 56,
+    "channelName": "L12-故障",
+    "liftNumber": "L12",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 57,
+    "channelName": "L12-服務中",
+    "liftNumber": "L12",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 58,
+    "channelName": "L12-警鐘",
+    "liftNumber": "L12",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 59,
+    "channelName": "L12-正常電源",
+    "liftNumber": "L12",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 60,
+    "channelName": "L12-緊急電源",
+    "liftNumber": "L12",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 61,
+    "channelName": "L13-故障",
+    "liftNumber": "L13",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 62,
+    "channelName": "L13-服務中",
+    "liftNumber": "L13",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 63,
+    "channelName": "L13-警鐘",
+    "liftNumber": "L13",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 64,
+    "channelName": "L13-正常電源",
+    "liftNumber": "L13",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 65,
+    "channelName": "L13-緊急電源",
+    "liftNumber": "L13",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 66,
+    "channelName": "L14-故障",
+    "liftNumber": "L14",
+    "signalType": "故障",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 67,
+    "channelName": "L14-服務中",
+    "liftNumber": "L14",
+    "signalType": "服務中",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 68,
+    "channelName": "L14-警鐘",
+    "liftNumber": "L14",
+    "signalType": "警鐘",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 69,
+    "channelName": "L14-正常電源",
+    "liftNumber": "L14",
+    "signalType": "正常電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 70,
+    "channelName": "L14-緊急電源",
+    "liftNumber": "L14",
+    "signalType": "緊急電源",
+    "locationMask": 160
+  },
+  {
+    "modbusChannelId": 71,
+    "channelName": "L15-故障",
+    "liftNumber": "L15",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 72,
+    "channelName": "L15-服務中",
+    "liftNumber": "L15",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 73,
+    "channelName": "L15-警鐘",
+    "liftNumber": "L15",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 74,
+    "channelName": "L15-正常電源",
+    "liftNumber": "L15",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 75,
+    "channelName": "L15-緊急電源",
+    "liftNumber": "L15",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 76,
+    "channelName": "L16-故障",
+    "liftNumber": "L16",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 77,
+    "channelName": "L16-服務中",
+    "liftNumber": "L16",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 78,
+    "channelName": "L16-警鐘",
+    "liftNumber": "L16",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 79,
+    "channelName": "L16-正常電源",
+    "liftNumber": "L16",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 80,
+    "channelName": "L16-緊急電源",
+    "liftNumber": "L16",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 81,
+    "channelName": "L17-故障",
+    "liftNumber": "L17",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 82,
+    "channelName": "L17-服務中",
+    "liftNumber": "L17",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 83,
+    "channelName": "L17-警鐘",
+    "liftNumber": "L17",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 84,
+    "channelName": "L17-正常電源",
+    "liftNumber": "L17",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 85,
+    "channelName": "L17-緊急電源",
+    "liftNumber": "L17",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 86,
+    "channelName": "L18-故障",
+    "liftNumber": "L18",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 87,
+    "channelName": "L18-服務中",
+    "liftNumber": "L18",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 88,
+    "channelName": "L18-警鐘",
+    "liftNumber": "L18",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 89,
+    "channelName": "L18-正常電源",
+    "liftNumber": "L18",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 90,
+    "channelName": "L18-緊急電源",
+    "liftNumber": "L18",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 91,
+    "channelName": "L19-故障",
+    "liftNumber": "L19",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 92,
+    "channelName": "L19-服務中",
+    "liftNumber": "L19",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 93,
+    "channelName": "L19-警鐘",
+    "liftNumber": "L19",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 94,
+    "channelName": "L19-正常電源",
+    "liftNumber": "L19",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 95,
+    "channelName": "L19-緊急電源",
+    "liftNumber": "L19",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 96,
+    "channelName": "L20-故障",
+    "liftNumber": "L20",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 97,
+    "channelName": "L20-服務中",
+    "liftNumber": "L20",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 98,
+    "channelName": "L20-警鐘",
+    "liftNumber": "L20",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 99,
+    "channelName": "L20-正常電源",
+    "liftNumber": "L20",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 100,
+    "channelName": "L20-緊急電源",
+    "liftNumber": "L20",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 101,
+    "channelName": "L21-故障",
+    "liftNumber": "L21",
+    "signalType": "故障",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 102,
+    "channelName": "L21-服務中",
+    "liftNumber": "L21",
+    "signalType": "服務中",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 103,
+    "channelName": "L21-警鐘",
+    "liftNumber": "L21",
+    "signalType": "警鐘",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 104,
+    "channelName": "L21-正常電源",
+    "liftNumber": "L21",
+    "signalType": "正常電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 105,
+    "channelName": "L21-緊急電源",
+    "liftNumber": "L21",
+    "signalType": "緊急電源",
+    "locationMask": 144
+  },
+  {
+    "modbusChannelId": 106,
+    "channelName": "L22-故障",
+    "liftNumber": "L22",
+    "signalType": "故障",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 107,
+    "channelName": "L22-服務中",
+    "liftNumber": "L22",
+    "signalType": "服務中",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 108,
+    "channelName": "L22-警鐘",
+    "liftNumber": "L22",
+    "signalType": "警鐘",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 109,
+    "channelName": "L22-正常電源",
+    "liftNumber": "L22",
+    "signalType": "正常電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 110,
+    "channelName": "L22-緊急電源",
+    "liftNumber": "L22",
+    "signalType": "緊急電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 111,
+    "channelName": "L23-故障",
+    "liftNumber": "L23",
+    "signalType": "故障",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 112,
+    "channelName": "L23-服務中",
+    "liftNumber": "L23",
+    "signalType": "服務中",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 113,
+    "channelName": "L23-警鐘",
+    "liftNumber": "L23",
+    "signalType": "警鐘",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 114,
+    "channelName": "L23-正常電源",
+    "liftNumber": "L23",
+    "signalType": "正常電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 115,
+    "channelName": "L23-緊急電源",
+    "liftNumber": "L23",
+    "signalType": "緊急電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 116,
+    "channelName": "L24-故障",
+    "liftNumber": "L24",
+    "signalType": "故障",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 117,
+    "channelName": "L24-服務中",
+    "liftNumber": "L24",
+    "signalType": "服務中",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 118,
+    "channelName": "L24-警鐘",
+    "liftNumber": "L24",
+    "signalType": "警鐘",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 119,
+    "channelName": "L24-正常電源",
+    "liftNumber": "L24",
+    "signalType": "正常電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 120,
+    "channelName": "L24-緊急電源",
+    "liftNumber": "L24",
+    "signalType": "緊急電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 121,
+    "channelName": "L25-故障",
+    "liftNumber": "L25",
+    "signalType": "故障",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 122,
+    "channelName": "L25-服務中",
+    "liftNumber": "L25",
+    "signalType": "服務中",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 123,
+    "channelName": "L25-警鐘",
+    "liftNumber": "L25",
+    "signalType": "警鐘",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 124,
+    "channelName": "L25-正常電源",
+    "liftNumber": "L25",
+    "signalType": "正常電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 125,
+    "channelName": "L25-緊急電源",
+    "liftNumber": "L25",
+    "signalType": "緊急電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 126,
+    "channelName": "L26-故障",
+    "liftNumber": "L26",
+    "signalType": "故障",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 127,
+    "channelName": "L26-服務中",
+    "liftNumber": "L26",
+    "signalType": "服務中",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 128,
+    "channelName": "L26-警鐘",
+    "liftNumber": "L26",
+    "signalType": "警鐘",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 129,
+    "channelName": "L26-正常電源",
+    "liftNumber": "L26",
+    "signalType": "正常電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 130,
+    "channelName": "L26-緊急電源",
+    "liftNumber": "L26",
+    "signalType": "緊急電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 131,
+    "channelName": "L27-故障",
+    "liftNumber": "L27",
+    "signalType": "故障",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 132,
+    "channelName": "L27-服務中",
+    "liftNumber": "L27",
+    "signalType": "服務中",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 133,
+    "channelName": "L27-警鐘",
+    "liftNumber": "L27",
+    "signalType": "警鐘",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 134,
+    "channelName": "L27-正常電源",
+    "liftNumber": "L27",
+    "signalType": "正常電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 135,
+    "channelName": "L27-緊急電源",
+    "liftNumber": "L27",
+    "signalType": "緊急電源",
+    "locationMask": 136
+  },
+  {
+    "modbusChannelId": 136,
+    "channelName": "L28-故障",
+    "liftNumber": "L28",
+    "signalType": "故障",
+    "locationMask": 129
+  },
+  {
+    "modbusChannelId": 137,
+    "channelName": "L28-服務中",
+    "liftNumber": "L28",
+    "signalType": "服務中",
+    "locationMask": 129
+  },
+  {
+    "modbusChannelId": 138,
+    "channelName": "L28-警鐘",
+    "liftNumber": "L28",
+    "signalType": "警鐘",
+    "locationMask": 129
+  },
+  {
+    "modbusChannelId": 139,
+    "channelName": "L28-正常電源",
+    "liftNumber": "L28",
+    "signalType": "正常電源",
+    "locationMask": 129
+  },
+  {
+    "modbusChannelId": 140,
+    "channelName": "L28-緊急電源",
+    "liftNumber": "L28",
+    "signalType": "緊急電源",
+    "locationMask": 129
+  },
+  {
+    "modbusChannelId": 141,
+    "channelName": "L29-故障",
+    "liftNumber": "L29",
+    "signalType": "故障",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 142,
+    "channelName": "L29-服務中",
+    "liftNumber": "L29",
+    "signalType": "服務中",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 143,
+    "channelName": "L29-警鐘",
+    "liftNumber": "L29",
+    "signalType": "警鐘",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 144,
+    "channelName": "L29-正常電源",
+    "liftNumber": "L29",
+    "signalType": "正常電源",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 145,
+    "channelName": "L29-緊急電源",
+    "liftNumber": "L29",
+    "signalType": "緊急電源",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 146,
+    "channelName": "L30-故障",
+    "liftNumber": "L30",
+    "signalType": "故障",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 147,
+    "channelName": "L30-服務中",
+    "liftNumber": "L30",
+    "signalType": "服務中",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 148,
+    "channelName": "L30-警鐘",
+    "liftNumber": "L30",
+    "signalType": "警鐘",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 149,
+    "channelName": "L30-正常電源",
+    "liftNumber": "L30",
+    "signalType": "正常電源",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 150,
+    "channelName": "L30-緊急電源",
+    "liftNumber": "L30",
+    "signalType": "緊急電源",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 151,
+    "channelName": "L31-故障",
+    "liftNumber": "L31",
+    "signalType": "故障",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 152,
+    "channelName": "L31-服務中",
+    "liftNumber": "L31",
+    "signalType": "服務中",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 153,
+    "channelName": "L31-警鐘",
+    "liftNumber": "L31",
+    "signalType": "警鐘",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 154,
+    "channelName": "L31-正常電源",
+    "liftNumber": "L31",
+    "signalType": "正常電源",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 155,
+    "channelName": "L31-緊急電源",
+    "liftNumber": "L31",
+    "signalType": "緊急電源",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 156,
+    "channelName": "L32-故障",
+    "liftNumber": "L32",
+    "signalType": "故障",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 157,
+    "channelName": "L32-服務中",
+    "liftNumber": "L32",
+    "signalType": "服務中",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 158,
+    "channelName": "L32-警鐘",
+    "liftNumber": "L32",
+    "signalType": "警鐘",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 159,
+    "channelName": "L32-正常電源",
+    "liftNumber": "L32",
+    "signalType": "正常電源",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 160,
+    "channelName": "L32-緊急電源",
+    "liftNumber": "L32",
+    "signalType": "緊急電源",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 161,
+    "channelName": "L33-故障",
+    "liftNumber": "L33",
+    "signalType": "故障",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 162,
+    "channelName": "L33-服務中",
+    "liftNumber": "L33",
+    "signalType": "服務中",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 163,
+    "channelName": "L33-警鐘",
+    "liftNumber": "L33",
+    "signalType": "警鐘",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 164,
+    "channelName": "L33-正常電源",
+    "liftNumber": "L33",
+    "signalType": "正常電源",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 165,
+    "channelName": "L33-緊急電源",
+    "liftNumber": "L33",
+    "signalType": "緊急電源",
+    "locationMask": 132
+  },
+  {
+    "modbusChannelId": 166,
+    "channelName": "L34-故障",
+    "liftNumber": "L34",
+    "signalType": "故障",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 167,
+    "channelName": "L34-服務中",
+    "liftNumber": "L34",
+    "signalType": "服務中",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 168,
+    "channelName": "L34-警鐘",
+    "liftNumber": "L34",
+    "signalType": "警鐘",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 169,
+    "channelName": "L34-正常電源",
+    "liftNumber": "L34",
+    "signalType": "正常電源",
+    "locationMask": 130
+  },
+  {
+    "modbusChannelId": 170,
+    "channelName": "L34-緊急電源",
+    "liftNumber": "L34",
+    "signalType": "緊急電源",
+    "locationMask": 130
+  }
+]

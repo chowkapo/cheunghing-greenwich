@@ -1,0 +1,4332 @@
+[
+    {
+        "cameraID": 1,
+        "cameraName": "T1 UR/F  Staircase T1S-1",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/198a3804-03ae-7c2d-1d64-53c7a5a2d460?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 2,
+        "cameraName": "T1 R/F  Lift Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/277a3c8a-ed12-406a-52f2-0d2a2dfe4624?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 3,
+        "cameraName": "T1 G/F Lift 4",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/1883b25d-8865-a6d4-094d-41437cafbd99?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 4,
+        "cameraName": "T1 G/F Lift 1",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/f0b4a241-5a37-67de-49cd-d490bae867af?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 5,
+        "cameraName": "T1 G/F Lift 2",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/5cf6a76c-2358-52fa-4b1d-89014600ebbf?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 6,
+        "cameraName": "T1 G/F Lift 3",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/c81428c7-51da-cb35-cb46-3d45d8735c4d?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 7,
+        "cameraName": "T1 40/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/5491bf64-9b4e-ad95-4c62-696f9cb7f38b?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 8,
+        "cameraName": "T1 39/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/3223edd8-17c8-269c-33c9-4a8b10cd6f93?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 9,
+        "cameraName": "T1 38/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/74027a42-5c81-b50c-08a5-bf217336cafd?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 10,
+        "cameraName": "T1 37/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/2d54acea-2857-beb9-afce-2294394d9405?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 11,
+        "cameraName": "T1 36/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/40bd331b-4f82-b0aa-8baa-8a79972b186a?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 12,
+        "cameraName": "T1 35/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/def8ffe7-f59a-c177-b5ce-a65eed2f27e0?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 13,
+        "cameraName": "T1 33/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/03600ddc-922d-0bb9-058d-5406a74e44a5?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 14,
+        "cameraName": "T1 32/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/39e579f4-0586-16ff-eac7-ea42f0c8ba14?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 15,
+        "cameraName": "T1 31/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/a816ddd8-bbf4-fecf-5a5e-02e1be4e5e7e?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 16,
+        "cameraName": "T1 30/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/b2f20288-0e10-641d-21e8-a198f95b748d?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 17,
+        "cameraName": "T1 29/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/c2925b4a-6596-85e2-6b5e-b97a2b7be68e?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 18,
+        "cameraName": "T1 28/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/d807c3c9-9267-3f47-193b-312a5c899ad3?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 19,
+        "cameraName": "T1 27/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/f70f710c-36fc-8a28-d04c-33b91dff608c?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 20,
+        "cameraName": "T1 26/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/9b12be44-dbca-8878-dc01-c53ed8841e6c?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 21,
+        "cameraName": "T1 25/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/cf0c38a1-82e4-5e0c-de48-7fb4a734472f?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 22,
+        "cameraName": "T1 23/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/6c983296-879d-585e-7e8e-8886b5327801?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 23,
+        "cameraName": "T1 22/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/2f741bb2-9104-43a0-3d0d-9df2b50bd016?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 24,
+        "cameraName": "T1 21/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/c7725d6a-f6cb-9766-d1c6-1f604321efef?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 25,
+        "cameraName": "T1 20/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/86a6218f-83ef-3a9e-e198-261cce4c8166?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 26,
+        "cameraName": "T1 19/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/a9fefd5c-ff91-0722-c7d2-f9428ffeb4ca?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 27,
+        "cameraName": "T1 18/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/91a1a934-3258-161e-25f7-9d6a351a361e?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 28,
+        "cameraName": "T1 17/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/6fca1deb-369d-ab5b-8d80-000cfc845524?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 29,
+        "cameraName": "T1 16/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/50f7d1b7-69f4-2368-52b6-80a58a310b98?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 30,
+        "cameraName": "T1 15/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/8fb47cb0-3233-f418-4143-1db78bb56240?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 31,
+        "cameraName": "T1 12/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/77d9f6db-06b9-1fc4-d710-e35e6fb1926d?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 32,
+        "cameraName": "T1 10/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/a19f0e45-7ca5-2346-bdf2-d1fd10d38bbc?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 33,
+        "cameraName": "T1 9/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/7730cbef-95d7-d6f3-1887-26142e146d23?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 34,
+        "cameraName": "T1 8/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/e9a32b07-2767-067a-a19b-5a4e4c346b6f?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 35,
+        "cameraName": "T1 7/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/47856a09-d99d-1898-8e2c-37e96bb49b9a?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 36,
+        "cameraName": "T1 6/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/583b3437-2dd7-4376-4a9b-24eeb3acd693?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 37,
+        "cameraName": "T1 5/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/db89b6e8-a4b6-f3a2-1eec-81ddd5647465?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 38,
+        "cameraName": "T1 3/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/ce63cb9a-1899-a897-371e-e889df6c6bea?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 39,
+        "cameraName": "T1 2/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/76a284c4-ca07-1bfa-15be-2a30600d7010?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 40,
+        "cameraName": "T1 1/F TRS",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/73e8a76b-ba28-7764-b19b-8c4d478d3b8e?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 41,
+        "cameraName": "T1 G/F Entrance Lobby-1",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/4d8fc66e-b9ae-45c8-252e-f4376475b504?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 42,
+        "cameraName": "T1 G/F Entrance Lobby-2",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/0a816bb9-a6b2-f63e-4c25-0ce66c6f242c?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 43,
+        "cameraName": "T1 G/F Lift 1, 2 Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7001/676b87c4-c91d-902e-4391-8d3a4d2cccc6?stream=1",
+        "tcpport": 7001
+    },
+    {
+        "cameraID": 44,
+        "cameraName": "T1 G/F  Lift 3, 4 Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/8ef36723-2064-32f8-79f5-2ccd1d904bed?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 45,
+        "cameraName": "T1 B1/F Lift 1, 2 Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/62de084d-b5f6-3445-0039-28a4b267d885?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 46,
+        "cameraName": "T1 B1/F  Lift 3, 4 Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/a7798ca9-e8e6-83f5-094f-620a89b4c3b7?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 47,
+        "cameraName": "T1 B1/F TRS BS-01",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/754e6b58-092f-1e82-a94c-4d13e2e4b416?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 48,
+        "cameraName": "T1 B2/F  Entrance Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/9922454c-73df-9511-3251-9bfdb1f2e25c?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 49,
+        "cameraName": "T1 B2/F Lift 1, 2 Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/8cdb3a48-a2da-eb3e-a73d-3fc209bd69b3?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 50,
+        "cameraName": "T1 B2/F Lift 3, 4 Lobby",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/fc737cd0-645c-225e-8093-2628a7b8a47c?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 51,
+        "cameraName": "T1 B2/F  TRS BS-01",
+        "channel": 1,
+        "locationMask": 272,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/bb59ff5c-99f9-d01d-112d-dbed0d4d3c10?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 52,
+        "cameraName": "T2 UR/F Staircase T2S-4",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/04db2b3a-bc61-56d3-89fc-23eb1cccba2b?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 53,
+        "cameraName": "T2 R/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/4b7d884d-21d4-855e-7562-d4cd4029b184?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 54,
+        "cameraName": "T2 G/F Lift 8",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/9d35e278-c8d7-9b59-5ee9-3059aac2e0af?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 55,
+        "cameraName": "T2 G/F Lift 5",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/3b86729b-2025-105e-5997-bb5f4611ef83?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 56,
+        "cameraName": "T2 G/F Lift 6",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/37839708-1339-df14-0aa2-fc60577a11c5?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 57,
+        "cameraName": "T2 G/F Lift 7",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/cd425632-28b2-6875-9386-780b7a00fc85?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 58,
+        "cameraName": "T2 40/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/832b6681-39f2-818b-875c-8711cf47175d?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 59,
+        "cameraName": "T2 40/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/275997bb-3a0f-d5bc-4275-358bdd006881?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 60,
+        "cameraName": "T2 39/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/364a8c52-64fd-3d97-5f18-2acbe2ddbf52?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 61,
+        "cameraName": "T2 39/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/1ebbdc86-aff6-5b92-d84b-bcbb48c107f2?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 62,
+        "cameraName": "T2 38/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/7932fb4d-6bd8-d0c5-d825-0205cdd754db?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 63,
+        "cameraName": "T2 38/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/9c195e11-80fc-2dcf-14ad-d1dee245fc99?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 64,
+        "cameraName": "T2 37/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/f5d0d156-5302-f528-836c-b714120da45c?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 65,
+        "cameraName": "T2 37/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/84595d06-51ac-9cf0-f0b5-65a0ecefd8cc?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 66,
+        "cameraName": "T2 36/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/148fc7a9-fd89-d0aa-f97e-58a47c46bb4b?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 67,
+        "cameraName": "T2 36/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/a37df6cf-808e-9461-2fbe-5b21599f8005?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 68,
+        "cameraName": "T2 35/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/57832dc0-bcce-0f72-a02c-0f9cd36919b0?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 69,
+        "cameraName": "T2 35/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/60ea65a2-7cb9-9ba9-743e-6722df801d5d?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 70,
+        "cameraName": "T2 33/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/169c2625-bff3-784b-da54-6cd169d76dc1?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 71,
+        "cameraName": "T2 33/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/50f11627-4f8b-e4ca-3350-e782227bb397?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 72,
+        "cameraName": "T2 32/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/496db746-be25-8410-92e7-f809daae6edf?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 73,
+        "cameraName": "T2 32/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/facadba6-de11-af29-8f0a-7fd865c867f7?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 74,
+        "cameraName": "T2 31/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/ef1006b1-52c4-5bef-3ff1-8c9f1cbbc1f8?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 75,
+        "cameraName": "T2 31/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/c006f040-036e-3b90-0c17-46e2b84ec7b0?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 76,
+        "cameraName": "T2 30/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/0c741dca-46b5-ec78-54c0-5fbb31a1c802?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 77,
+        "cameraName": "T2 30/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/843c4e1f-fc1f-e85b-33f6-b6981d882d3c?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 78,
+        "cameraName": "T2 29/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/adf99da5-ddf9-8240-ceec-491a0820bd4e?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 79,
+        "cameraName": "T2 29/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/eb2d13a2-1462-9266-0327-ad09a1c82f0a?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 80,
+        "cameraName": "T2 28/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/5b1c9534-3835-2551-2811-0c33fc421de2?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 81,
+        "cameraName": "T2 28/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/68ef0b4a-6477-0f45-de54-11e0ba4e51cf?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 82,
+        "cameraName": "T2 27/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/aea3ba47-5c34-fecc-a335-37c18176b457?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 83,
+        "cameraName": "T2 27/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/0a820a11-055e-ce73-3622-1e6c2cdfeac6?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 84,
+        "cameraName": "T2 26/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/46f5fd90-498f-f89f-ad3c-035fef9113f3?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 85,
+        "cameraName": "T2 26/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/667c04c6-9827-ede1-8a58-1a75da68e151?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 86,
+        "cameraName": "T2 25/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7002/5060cc31-e746-abc7-65b4-58df2d27b088?stream=1",
+        "tcpport": 7002
+    },
+    {
+        "cameraID": 87,
+        "cameraName": "T2 25/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/e11d3e56-7096-a1c0-30a7-3d79966ca81f?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 88,
+        "cameraName": "T2 23/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/90bedf0d-04cc-d47a-a2cb-4a73e1c1793a?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 89,
+        "cameraName": "T2 23/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/d452cfc3-0f0b-88e1-aa55-d2c939c53d5e?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 90,
+        "cameraName": "T2 22/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/813a375f-939c-d839-4fe6-2e3553505449?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 91,
+        "cameraName": "T2 22/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/ad79c103-7d19-b076-00cb-020149db4543?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 92,
+        "cameraName": "T2 21/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/4974225c-8ff8-840b-8966-74605d505f8e?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 93,
+        "cameraName": "T2 21/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/4881a8d8-8c7f-3f9a-57cc-c508012abcec?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 94,
+        "cameraName": "T2 20/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/95e8892a-a68a-fdb2-4c62-a4076ce76a8d?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 95,
+        "cameraName": "T2 20/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/fe7777a3-30bf-b4f9-8f6c-1fc125146fd5?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 96,
+        "cameraName": "T2 19/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/6e1a557c-d7b1-85db-a604-8d18a1cf41a0?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 97,
+        "cameraName": "T2 19/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/aa70929a-bd2c-f26a-b41b-05b6427910d7?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 98,
+        "cameraName": "T2 18/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/84076fe8-3591-e9ce-aba2-15b6ab5ead13?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 99,
+        "cameraName": "T2 18/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/ea8cc9ef-c755-6ed2-f6ed-273e0bc05b49?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 100,
+        "cameraName": "T2 17/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/3cafe65c-4071-bf04-d29b-a5131481895d?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 101,
+        "cameraName": "T2 17/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/56dbb40d-efe6-2b45-081d-b6c656101bcb?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 102,
+        "cameraName": "T2 16/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/4f32c086-ef3b-4033-a8dc-6f495145eb9e?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 103,
+        "cameraName": "T2 16/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/387179f6-3c82-5970-195c-015a0e2248d4?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 104,
+        "cameraName": "T2 15/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/137bc428-1352-82a2-6785-9920b1972f33?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 105,
+        "cameraName": "T2 15/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/c5d22c0d-6ee7-ae92-ebae-126418316fc2?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 106,
+        "cameraName": "T2 12/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/8681ca5d-0121-8ac2-91e3-b97c2515ea99?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 107,
+        "cameraName": "T2 12/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/674f7205-2f63-4966-9836-27c65e70902e?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 108,
+        "cameraName": "T2 10/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/67c15f54-b2c0-91fb-a43a-ba54757d4a51?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 109,
+        "cameraName": "T2 10/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/7a5d9bea-e877-8808-4d9b-30e5c7c3fa4f?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 110,
+        "cameraName": "T2 9/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/039da2bb-c2b3-ab69-f841-b02d1cb526fb?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 111,
+        "cameraName": "T2 9/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/61451c94-8bd4-85fc-42e5-1e58473d05b0?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 112,
+        "cameraName": "T2 8/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/34a7f913-a13f-1dc9-6206-4b9ce0dd3031?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 113,
+        "cameraName": "T2 8/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/6e98ef1c-77d6-7339-cc88-8526241cd6b6?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 114,
+        "cameraName": "T2 7/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/2b54de3b-33ed-a76c-9061-6991c5b528be?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 115,
+        "cameraName": "T2 7/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/bc09ab2c-01da-09a6-9d42-1a64ba8c373f?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 116,
+        "cameraName": "T2 6/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/e5b9a92e-02f7-2e8f-c0a3-cc1729f3f4af?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 117,
+        "cameraName": "T2 6/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/0d8f4df5-d488-c063-c980-f75671d55e31?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 118,
+        "cameraName": "T2 5/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/4dc197e5-4a08-e2cf-9055-0cb1627adf45?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 119,
+        "cameraName": "T2 5/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/d20399e7-466e-8ef5-aca6-96fcfae1b572?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 120,
+        "cameraName": "T2 3/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/6e38738f-29d1-f4ad-c2cc-d7cf59c26430?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 121,
+        "cameraName": "T2 3/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/174eac59-9432-0d04-f3b4-fd5c06566acb?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 122,
+        "cameraName": "T2 2/F TRS-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/8ebb4aad-d937-ff29-1c41-cde8dabce6f2?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 123,
+        "cameraName": "T2 2/F TRS-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/2a738dc8-550b-0cb2-30eb-2a69b707a4b3?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 124,
+        "cameraName": "T2 1/F TRS",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/015a8b9b-9016-5124-c4b3-8037503c10fc?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 125,
+        "cameraName": "T2 G/F Entrance Lobby-1",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/25137d2e-ec9d-e5d4-b06f-0a3175d8a5f0?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 126,
+        "cameraName": "T2 G/F Entrance Lobby-2",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/a2a96e6a-e29a-dfbf-a5c5-c4a11e1c4e81?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 127,
+        "cameraName": "T2 G/F Lift 5, 6 Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/0cbabcb6-c03c-e65b-bcfb-96f112f49243?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 128,
+        "cameraName": "T2 G/F Lift 7, 8 Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/d8593fac-baec-4290-df1f-1e74a96bccf6?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 129,
+        "cameraName": "T2 B1/F  Lift 5, 6 Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7003/dda58a10-2632-c5da-953d-adfe45dbd0fb?stream=1",
+        "tcpport": 7003
+    },
+    {
+        "cameraID": 130,
+        "cameraName": "T2 B1/F  Lift 7, 8 Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/29547b94-d871-a1b4-c08f-f4179b76f5d2?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 131,
+        "cameraName": "T2 B2/F  Lift 5, 6 Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/833a6353-a088-1517-4ccb-20e0d74e08d6?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 132,
+        "cameraName": "T2 B2/F  Lift 7, 8 Lobby",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/cfd0f7b9-9390-5c5d-0b4d-3792f3f80d96?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 133,
+        "cameraName": "T2 B2/F TRS BS-02",
+        "channel": 1,
+        "locationMask": 288,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/42ada49f-9cd4-1216-8d0a-cf82f17992bc?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 134,
+        "cameraName": "T3 UR/F  Staircase T3AS-1",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/43768aa0-85db-481d-589e-ca6c8bcc489e?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 135,
+        "cameraName": "T3 R/F  Lift Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/bc4cb0c0-e7ea-9c9e-7445-ff6d67beae2a?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 136,
+        "cameraName": "T3 R/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/edbd6427-b0f3-bd0e-b5a4-68b37366ad83?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 137,
+        "cameraName": "T3 G/F Lift 9",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/50126e2f-046b-fc6e-0de1-6ce3809a52e7?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 138,
+        "cameraName": "T3 G/F Lift 10",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/29db3151-3e80-2323-7d70-e0869581b978?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 139,
+        "cameraName": "T3 G/F Lift 11",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/c75e872f-3990-0dbf-9914-cb1161c4d201?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 140,
+        "cameraName": "T3 G/F Lift 12",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/d859a944-4b74-5461-be8b-17adfa8889f0?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 141,
+        "cameraName": "T3 40/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/3b80abb3-3798-92bd-2fba-6d7f18b5630b?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 142,
+        "cameraName": "T3 39/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/00f9fc0b-92c7-7a2d-dcfa-6829c83db3c6?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 143,
+        "cameraName": "T3 38/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/4ad8fba9-edda-d050-1cd2-80dda5790443?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 144,
+        "cameraName": "T3 37/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/cf9882ed-4d75-4fe0-64ee-ca6ba6c0054a?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 145,
+        "cameraName": "T3 36/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/2a17ad28-2e07-a7e7-5d90-ba5691542f1e?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 146,
+        "cameraName": "T3 35/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/cc06605e-13fc-92a3-f292-8c7782f81402?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 147,
+        "cameraName": "T3 33/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/4810c8e9-5bc0-b44f-91ba-f2c8a35377d8?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 148,
+        "cameraName": "T3 32/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/d4db7569-dfc9-5b03-c580-fd0da1ff80cc?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 149,
+        "cameraName": "T3 31/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/82352ea7-51fe-ea21-f725-7074ae1a983f?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 150,
+        "cameraName": "T3 30/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/3f647c01-496a-432b-0fee-c20458273ed6?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 151,
+        "cameraName": "T3 29/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/5ed69b6d-a927-49f4-c9f6-7667fa710b07?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 152,
+        "cameraName": "T3 28/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/2913925d-31f3-40bf-36a9-02f162e7d485?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 153,
+        "cameraName": "T3 27/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/392cc1b0-76cb-798a-01dc-553ea507d6c8?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 154,
+        "cameraName": "T3 26/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/21713227-91ea-2216-206a-fd7758fa47e7?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 155,
+        "cameraName": "T3 25/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/ceb42c45-58c8-1c0c-73c4-5efbeaca68bb?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 156,
+        "cameraName": "T3 23/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/72ce217b-9f64-36e7-258f-68ff2a70afe7?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 157,
+        "cameraName": "T3 22/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/3fe169fa-f098-1f12-a3ac-70ecf3b8901d?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 158,
+        "cameraName": "T3 21/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/6a9f0e6c-9675-1fe1-d420-bfcca54cf6b4?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 159,
+        "cameraName": "T3 20/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/4460577a-c5e7-51c4-39b8-651bec9fff38?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 160,
+        "cameraName": "T3 19/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/e0cadc2f-6495-ac48-bb82-3115fde5f459?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 161,
+        "cameraName": "T3 18/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/a97a73cd-8e16-16bd-480a-17bd5762346e?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 162,
+        "cameraName": "T3 17/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/1e744441-96a7-01ac-a850-45576cd343b4?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 163,
+        "cameraName": "T3 16/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/caefce5a-ac99-bd99-7fa5-3fdbc578cda7?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 164,
+        "cameraName": "T3 15/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/0655dcab-a276-4d06-d7d7-7edf19d0a568?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 165,
+        "cameraName": "T3 12/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/857e4ad1-31a6-f184-e366-800156ff7ec1?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 166,
+        "cameraName": "T3 10/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/4e5e87da-1d0e-76fe-3411-274f2f522195?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 167,
+        "cameraName": "T3 9/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/23849e28-8c1d-58cf-a937-ff6b795a579d?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 168,
+        "cameraName": "T3 8/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/28cef3dd-b521-9964-6956-c4b5a4ba06d4?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 169,
+        "cameraName": "T3 7/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/9771c9e1-2ec5-09a1-832d-969f1157631e?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 170,
+        "cameraName": "T3 6/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/c6f0ec85-db26-792b-5cb8-53f4bfc50983?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 171,
+        "cameraName": "T3 5/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/9c09bff2-84d1-dfac-0c64-660f86bc795b?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 172,
+        "cameraName": "T3 3/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/8d5f215b-33fc-e3d6-6f59-af4175644546?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 173,
+        "cameraName": "T3 2/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/dbac999c-25d2-c40f-05d5-b2a92d2837c8?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 174,
+        "cameraName": "T3 1/F TRS",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/0a55562f-3b48-1a3c-de2e-2b1eab76b12e?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 175,
+        "cameraName": "T3 G/F Residential Lobby-1",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/63d54784-edd6-2b41-9d27-084b870d8ce6?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 176,
+        "cameraName": "T3 G/F Residential Lobby-2",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/fcaa328f-bbd4-a91b-88d1-de9907f3f908?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 177,
+        "cameraName": "T3 G/F Residential Lobby-3",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/0b132781-e0dc-8f53-a7c4-0ff392a78c0d?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 178,
+        "cameraName": "T3 G/F Residential Lobby-4",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/bd3a58fc-b93f-a4df-28e7-a0afec1d6d02?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 179,
+        "cameraName": "T3 G/F Caretaker Office",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/43a8befe-67b1-7026-e2c5-48dd686fac5e?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 180,
+        "cameraName": "T3 G/F Lift 9, 10 Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/1fdd8c6b-e5d3-5088-b098-0d7bc2512959?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 181,
+        "cameraName": "T3 G/F Lift 11, 12 Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/892ec558-2a8c-a92f-1912-a7a5e60b9c0f?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 182,
+        "cameraName": "T3 G/F T3A Mail Box",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/773575d1-feed-a14f-7fa3-db967510d634?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 183,
+        "cameraName": "T3 G/F T3B Mail Box",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/704d93a7-0b29-1634-a338-449c4930d27d?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 184,
+        "cameraName": "T3 G/F Caretaker Counter 1",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/7c72c894-7ada-7d2b-9626-7267f63cac8b?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 185,
+        "cameraName": "T3 G/F Caretaker Counter 2",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/398454ef-9262-f546-b952-e40a00540cd3?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 186,
+        "cameraName": "T3 B1/F  Lift 9, 10 Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/b0d03d04-d05e-20e8-5d55-de96f17f9c11?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 187,
+        "cameraName": "T3 B1/F Lift 11, 12 Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/0e8adb10-5025-c841-9b6a-aae1fbfbc4d4?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 188,
+        "cameraName": "T3 B1/F TRS BS-13",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/f8732314-a6c2-4697-2012-ab2e418da06e?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 189,
+        "cameraName": "T3 B2/F Lift 9, 10 Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/bd2f507f-c23a-57aa-3f91-825454e8540a?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 190,
+        "cameraName": "T3 B2/F Lift 11, 12 Lobby",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/22cf527f-55b0-ef61-728e-806f19e35e9a?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 191,
+        "cameraName": "T3 B2/F  TRS BS-03",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/f61b8fc6-ed15-f285-758a-e6e5c00c51d8?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 192,
+        "cameraName": "T3 B2/F  TRS BS-04",
+        "channel": 1,
+        "locationMask": 320,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/fd769a55-4593-f72b-eba4-a4a72057ad53?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 193,
+        "cameraName": "Condo. A R/F Staircase B1S-1",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/acfcb8e7-bc5c-3cc6-e5d1-cf119124bf6d?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 194,
+        "cameraName": "Condo. A R/F Staircase B1S-2",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/b59b95fc-e88f-f1c5-d6c4-9acb22565d2d?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 195,
+        "cameraName": "Condo. A G/F Lift 13",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/096e997b-1685-bed9-af36-579a60dc6da7?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 196,
+        "cameraName": "Condo. A G/F Lift 14",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/788e522a-0ad3-ec6f-b857-6d641d24cf60?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 197,
+        "cameraName": "Condo. A 6/F TRS",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/300d2f3d-9deb-272d-6b42-38d133ae1840?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 198,
+        "cameraName": "Condo. A 5/F TRS",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/2d190cfa-005a-44b3-3581-85f4a289745f?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 199,
+        "cameraName": "Condo. A 3/F TRS",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/d4fcc16e-a2bf-a688-c4c4-690096293167?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 200,
+        "cameraName": "Condo. A 2/F TRS",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/56e092f3-b3c4-cf3d-647e-f79dedb3f8bc?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 201,
+        "cameraName": "Condo. A 1/F TRS",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/3d363eee-ae30-e281-fc44-0c2c941f2980?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 202,
+        "cameraName": "Condo. A G/F Entrance Lobby",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/690d2985-d01f-ea96-6edc-3be59bc0e644?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 203,
+        "cameraName": "Condo. A G/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/d04f7ef5-2bbe-efaf-bb5f-39894bc094a8?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 204,
+        "cameraName": "Condo. A B1/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 257,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/296b8358-6e96-f6da-54ea-21a7db8a671e?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 205,
+        "cameraName": "Condo. B R/F Staircase B2S-1",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/18a33995-d184-ef7d-82fc-4770bd8c44df?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 206,
+        "cameraName": "Condo. B R/F Staircase B2S-2",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/14b956bc-2373-9cab-8abb-601d1e8f5fdd?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 207,
+        "cameraName": "Condo. B G/F Lift 15",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/07506533-eba1-2af7-550e-2db8bbc87815?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 208,
+        "cameraName": "Condo. B G/F Lift 16",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/191d8a7c-3a43-30e7-0fbd-580752dfa110?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 209,
+        "cameraName": "Condo. B 6/F TRS",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/d0aa5f6c-6f5e-53e6-e97b-d90572ed8ca6?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 210,
+        "cameraName": "Condo. B 5/F TRS",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/87b21093-52a5-8b7c-fb54-0350db446696?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 211,
+        "cameraName": "Condo. B 3/F TRS",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/bdede9cb-f433-97d6-a3f0-1ece28e263a9?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 212,
+        "cameraName": "Condo. B 2/F TRS",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/07d67503-08d4-c693-649c-5ea6ce4bfdc0?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 213,
+        "cameraName": "Condo. B 1/F TRS",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/27819068-b36d-a35f-f416-ee7edd33ff15?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 214,
+        "cameraName": "Condo. B G/F Entrance Lobby",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/740ef5fe-218c-202a-d4e3-304a989605fb?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 215,
+        "cameraName": "Condo. B G/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7005/9fb06604-f1a2-71ab-1d58-ba4ce17557e1?stream=1",
+        "tcpport": 7005
+    },
+    {
+        "cameraID": 216,
+        "cameraName": "Condo. B B1/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/c4f2a13d-2156-14cb-0f86-cb51ec76e808?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 217,
+        "cameraName": "Condo. B B1/F TRS BS-06",
+        "channel": 1,
+        "locationMask": 258,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/bbdbac6c-7806-6df4-78bb-8d0e989ded6f?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 218,
+        "cameraName": "Condo. C R/F  Staircase B3S-1",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/2a4a1d8f-7e11-d574-8837-2bc16b1cd3a0?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 219,
+        "cameraName": "Condo. C R/F Staircase B3S-2",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/741ba6fc-c108-033b-022f-605f4925266c?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 220,
+        "cameraName": "Condo. C G/F Lift 17",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/0c371beb-aa0c-2a86-f7b1-cbdd616aa806?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 221,
+        "cameraName": "Condo. C G/F Lift 18",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/c4cb015f-11ba-af31-ebc0-3d68235d2f4e?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 222,
+        "cameraName": "Condo. C 6/F TRS",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/09ee1ac3-2bc4-b982-fd17-f5aaf38550a8?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 223,
+        "cameraName": "Condo. C 5/F TRS",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/25fe901a-91d9-2813-fef3-de3afa3f2c91?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 224,
+        "cameraName": "Condo. C 3/F TRS",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/b65d6bb4-69c1-a244-496e-6770f192b67e?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 225,
+        "cameraName": "Condo. C 2/F TRS",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/781d4f9f-54aa-4f46-7d0d-fd99d33cff57?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 226,
+        "cameraName": "Condo. C 1/F TRS",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/50a24f8b-6170-7c18-04fe-09e1a37c5ed7?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 227,
+        "cameraName": "Condo. C G/F Entrance Lobby",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/4757dcba-961d-ddbe-ef51-5c1d46719451?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 228,
+        "cameraName": "Condo. C G/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/4c80f891-964a-da84-db6c-f68eb1d44c78?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 229,
+        "cameraName": "Condo. C B1/F  Lift Lobby",
+        "channel": 1,
+        "locationMask": 260,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/5ab097ba-50a0-74da-4bf4-8dfb5af97906?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 230,
+        "cameraName": "Condo. C B1/F TRS BS-05",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/42b2a374-d8ed-8daa-f121-c77c9bfe2417?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 231,
+        "cameraName": "Condo. D R/F Staircase B5S-1",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/0b406351-fbd1-27e6-f388-7358ced0de05?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 232,
+        "cameraName": "Condo. D R/F Staircase B5S-2",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/207219d7-3c58-3934-027b-2bb33ff260f2?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 233,
+        "cameraName": "Condo. D G/F Lift 19",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/309c2a82-cf69-b9d0-05a9-41af6ebab56a?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 234,
+        "cameraName": "Condo. D G/F Lift 20",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/329bc80c-2c29-185e-e6d6-3324c83f9edf?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 235,
+        "cameraName": "Condo. D 6/F TRS",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/c8150d45-79da-39a3-5cb3-377952550735?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 236,
+        "cameraName": "Condo. D 5/F TRS",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/c41df7cc-b5dd-8838-22cf-8ed0646ad225?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 237,
+        "cameraName": "Condo. D 3/F TRS",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/b2a80d11-e8db-61d2-bbd5-6b0883b70db4?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 238,
+        "cameraName": "Condo. D 2/F TRS",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/28716517-85c3-7438-08d0-7f2495b8fb71?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 239,
+        "cameraName": "Condo. D 1/F TRS",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/e00f407d-6e2f-e042-d8ad-6aa55b9d2000?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 240,
+        "cameraName": "Condo. D G/F Entrance Lobby",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/ca3a5f2a-5826-5217-4137-070f101a3ecb?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 241,
+        "cameraName": "Condo. D G/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/ea310e37-95be-7704-506e-6d746ce6ea09?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 242,
+        "cameraName": "Condo. D B1/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 264,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/c0c9523b-9dad-43ca-2504-e1ca97a77eac?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 243,
+        "cameraName": "Podium G/F Driveway 1 (T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/02cf7d42-6242-5e4a-48d3-82a1f440f3cc?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 244,
+        "cameraName": "Podium G/F Driveway 2 (T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/c430f31a-9950-efac-1233-2844b7fe5828?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 245,
+        "cameraName": "Podium G/F Walkway 1 (T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/9e69b8d7-1c78-dbab-9e6e-3a7e1e9de247?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 246,
+        "cameraName": "Podium G/F Walkway 2 (T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/cc388240-21ea-d7fe-7bf3-27a6d41e20e7?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 247,
+        "cameraName": "Podium G/F Walkway 3 (T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/d467505e-9d62-fae2-89a9-9cfc8a15bf02?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 248,
+        "cameraName": "Podium G/F Metal Gate 1 (Near T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/a656d8a1-3860-fe3c-6b16-e634fa679c5d?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 249,
+        "cameraName": "Podium G/F Metal Gate 2 (Near T1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/65288532-9f15-3d64-e39e-40fb924eef12?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 250,
+        "cameraName": "Podium G/F Driveway 1 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/ccde76c2-2629-a0ca-b599-6fa83835f346?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 251,
+        "cameraName": "Podium G/F Driveway 2 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/42271b04-7a44-ca8c-4daa-6bea7633fad2?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 252,
+        "cameraName": "Podium G/F Driveway 3 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/56a35ae3-f29e-c8e7-83b0-73408eb77489?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 253,
+        "cameraName": "Podium G/F Driveway 4 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/10e166b0-b0ae-36ff-78ac-734946735816?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 254,
+        "cameraName": "Podium G/F Walkway 1 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/3018c050-b5da-8cef-c228-f3008fcd3e95?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 255,
+        "cameraName": "Podium G/F Walkway 2 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/8d2f27b8-538c-d5d3-1c7a-0b0f89997c79?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 256,
+        "cameraName": "Podium G/F Walkway 3 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/9d56c707-4d5e-7de0-aa9b-e66029f3e248?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 257,
+        "cameraName": "Podium G/F Walkway 4 (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/a54713cc-8145-f129-ff33-5f01932f61b1?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 258,
+        "cameraName": "Podium G/F Driveway 1 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7006/79212bc1-d6f2-217d-0e78-e7f6b30d7b5a?stream=1",
+        "tcpport": 7006
+    },
+    {
+        "cameraID": 259,
+        "cameraName": "Podium G/F Driveway 2 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/8559aad9-a432-dab5-f948-54d0f76e6f19?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 260,
+        "cameraName": "Podium G/F Landscape 1 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/0cfaf271-b6e0-11dc-b061-61ba1e71c4f9?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 261,
+        "cameraName": "Podium G/F Landscape 2 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/13d2c3ee-7136-9ed0-eafd-1ac933651aa2?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 262,
+        "cameraName": "Podium G/F Landscape 3 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/1eaccd5e-3fba-06bc-9c40-113c366f5f46?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 263,
+        "cameraName": "Podium G/F Landscape 4 (T3)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/24647b5f-bc4e-3f06-05cf-970e8b5dee31?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 264,
+        "cameraName": "Podium G/F Landscape 5 (T3)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/8ef81300-467b-5325-7fa9-67edfe507d42?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 265,
+        "cameraName": "Podium G/F Matel Gate (Near CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/42f4de8b-49ce-43af-f47d-7831da0cf3f9?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 266,
+        "cameraName": "Podium G/F Walkway 1 (CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/01d29b19-a7e5-0967-9df1-25bc43cf8a87?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 267,
+        "cameraName": "Podium G/F Walkway 2 (CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/ff865aaf-d297-747e-5d33-43566636ab76?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 268,
+        "cameraName": "Podium G/F Fence Wall 1 (CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/70e74f78-cdea-dabc-3604-12210b3f6dc4?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 269,
+        "cameraName": "Podium G/F Fence Wall 2 (CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/cafa9814-ca9c-6dcf-c2ce-966ff1820b5b?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 270,
+        "cameraName": "Podium G/F Bike Parking Area (CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/519661ec-405a-d20e-6530-b326948e0991?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 271,
+        "cameraName": "Podium G/F Condo A Entrance",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/bd5e3fd3-345a-20ca-14a9-49cd21d6655e?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 272,
+        "cameraName": "Podium G/F Condo B Entrance",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/070dc7ff-2431-112d-1423-480e46400c9b?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 273,
+        "cameraName": "Podium G/F Bike Parking Area (CB)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/a3e3ba79-b153-c44e-a584-9ab32dd928c3?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 274,
+        "cameraName": "Podium G/F Fence Wall 1 (CB)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/fb9a7c40-facc-14f4-dc62-9bc443fd93cd?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 275,
+        "cameraName": "Podium G/F Fence Wall 2 (CB)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/88dc3212-038a-9a7f-41eb-05a3783fd4a6?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 276,
+        "cameraName": "Podium G/F Metal Gate (Near CB)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/3c06eed6-001f-133c-2061-bf5eebf06f77?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 277,
+        "cameraName": "Podium G/F Children Play Area (CB)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/7758996c-96e4-234d-775f-585e438dc6c8?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 278,
+        "cameraName": "Podium G/F Children Play Area (CC)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/17b95001-e8bf-7c96-1ed8-fd420902f313?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 279,
+        "cameraName": "Podium G/F Fence Wall 1 (CC)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/f00fca94-ed85-a4c2-7cbd-e47e6c5104e3?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 280,
+        "cameraName": "Podium G/F Fence Wall 2 (CC)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/2954ad62-cf14-ca17-20fc-d7e18e6cf661?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 281,
+        "cameraName": "Podium G/F Bike Parking Area (CC)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/1ef1acd7-668c-01a2-c6e7-c6eaddd8c2aa?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 282,
+        "cameraName": "Podium G/F Bike Parking Area (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/de855128-f317-f3db-73ea-814234048b56?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 283,
+        "cameraName": "Podium G/F Landscape 1 (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/0b74407c-2f89-1d95-ab7a-d2f059a3d76f?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 284,
+        "cameraName": "Podium G/F Fence Wall 1 (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/0f2a94d6-19c3-5c4f-bc64-bff3625fc499?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 285,
+        "cameraName": "Podium G/F Fence Wall 2 (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/cd501e24-22fb-6229-1d4f-a735b3e937d0?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 286,
+        "cameraName": "Podium G/F Walkway 1 (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/ee7fa26e-a7b3-5153-62f0-bfff0896c4b6?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 287,
+        "cameraName": "Podium G/F Walkway 2 (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/5cd31272-e865-f94b-cb1f-6c675400c963?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 288,
+        "cameraName": "Carpark B1/F Driveway 1 (Entrance)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/e3c46bf7-f262-01a4-c244-4f70265439bc?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 289,
+        "cameraName": "Carpark B1/F Driveway 2 (Entrance)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/091e84e8-0a5c-6a95-bd09-9174529195fc?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 290,
+        "cameraName": "Carpark B1/F Barrier Gate (Resident)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/45e4b4fc-bef1-8a3e-c269-a620ebafe34e?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 291,
+        "cameraName": "Carpark B1/F Barrier Gate (Public)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/beb038a8-eea3-e09e-b10f-ab2357d62bb7?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 292,
+        "cameraName": "Carpark B1/F Carpark (C001)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/158883b1-7e46-a060-617e-d6b635a0f8ba?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 293,
+        "cameraName": "Carpark B1/F Carpark (C003)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/2a7d7ebe-f37c-d2ad-64e0-01ec6e2004a5?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 294,
+        "cameraName": "Carpark B1/F  Carpark (C004)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/6d0cc0a5-ca5a-db05-0b4a-57664b4918d5?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 295,
+        "cameraName": "Carpark B1/F  Carpark (C006)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/6cb5263c-5cca-9f17-bf10-e159dec044fb?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 296,
+        "cameraName": "Carpark B1/F Carpark (Near C008)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/d59c4f63-2cd6-2e90-3f56-6dbcdfd3fb47?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 297,
+        "cameraName": "Carpark B1/F Carpark (Near C011)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/4068cb77-2e2b-15e6-16a7-be5c8f8ef959?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 298,
+        "cameraName": "Carpark B1/F Carpark (Near CC Entrance)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/612cd3ee-17e8-52a2-98f1-38f5d6396291?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 299,
+        "cameraName": "Carpark B1/F Carpark (Near LC3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/601478b2-6c42-78c3-9570-ae8c421bc356?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 300,
+        "cameraName": "Carpark B1/F Carpark (LR7)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/51764188-4661-8152-d10c-a012194d1401?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 301,
+        "cameraName": "Carpark B1/F  Barrier (IN) (Residential)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7007/8dbefa36-3dd1-19c4-cc55-085964d2a4fc?stream=1",
+        "tcpport": 7007
+    },
+    {
+        "cameraID": 302,
+        "cameraName": "Carpark B1/F Barrier (OUT) (Residential)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/0172d749-07dd-9c2f-5bdb-a2a4f0df7d05?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 303,
+        "cameraName": "Carpark B1/F Barrier (IN) (Commercial)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/b2c72f1b-89d3-f897-a33e-8291f8a245a0?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 304,
+        "cameraName": "Carpark B1/F Barrier (OUT) (Commercial)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/9cf4e30f-0953-359b-7c7c-be706d361e1b?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 305,
+        "cameraName": "Carpark B1/F Carpark (R002)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/6553843b-bce2-91f1-c021-d08944fe0ecf?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 306,
+        "cameraName": "Carpark B1/F  Carpark (R005)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/b2b8092b-c0d9-2212-7520-fd66c6029a80?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 307,
+        "cameraName": "Carpark B1/F  Carpark (R008)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/8b2fe003-a5fa-d8c2-a129-4413af6e5d6a?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 308,
+        "cameraName": "Carpark B1/F Driveway 1 (Near T3A)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/88e80605-568c-7030-05ec-dba4652e59af?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 309,
+        "cameraName": "Carpark B1/F  Driveway 2 (Near T3A)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/c64ae6bc-f506-aa51-25f4-a85e23796e6f?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 310,
+        "cameraName": "Carpark B1/F  Carpark (R012)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/66e8b797-3def-7b45-3351-2014a3731278?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 311,
+        "cameraName": "Carpark B1/F  Driveway (Near R030)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/70b815b3-7d6b-f211-926d-368cc9e8086c?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 312,
+        "cameraName": "Carpark B1/F  Carpark (R023)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/acce5aa1-f580-e34c-8fcc-d3952f70976c?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 313,
+        "cameraName": "Carpark B1/F Carpark (R024)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/f969e3d7-ec9d-6b75-a73f-e70851e67899?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 314,
+        "cameraName": "Carpark B1/F  Carpark (R032)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/ecd7c364-7454-e881-b612-a15d33f11c48?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 315,
+        "cameraName": "Carpark B1/F Carpark (R038)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/9ebcb928-3e88-153a-e867-46fe73d74860?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 316,
+        "cameraName": "Carpark B1/F Carpark (R044)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/2b3df8e0-d7a0-525f-d069-b2283582587c?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 317,
+        "cameraName": "Carpark B1/F Carpark (R046)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/04e6b199-6c20-6a1c-5c98-b52263f7078e?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 318,
+        "cameraName": "Carpark B1/F Carpark (R048)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/f033f01e-09a5-a785-adc8-60b6b878d2c4?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 319,
+        "cameraName": "Carpark B1/F Carpark (R055)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/2a9bff18-9bce-9df6-fe2f-d7a4cd4e2998?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 320,
+        "cameraName": "Carpark B1/F Carpark (R059)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/bfef4062-c41a-a690-a65b-fd4282fa0a50?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 321,
+        "cameraName": "Carpark B1/F Carpark (R060)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/1c34a4af-172d-4d71-3751-0b08c07693e1?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 322,
+        "cameraName": "Carpark B2/F Carpark (R064)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/ec9c86aa-bdbc-7fe1-83f2-c60f39676add?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 323,
+        "cameraName": "Carpark B2/F Carpark (R070)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/4ada9123-a3d3-eeee-17e4-c40e595ddb63?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 324,
+        "cameraName": "Carpark B2/F Carpark (Near R73)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/8af0939e-0119-bdb0-f2f4-f5e2ef992408?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 325,
+        "cameraName": "Carpark B2/F Carpark (Near R74)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/3da04297-9239-904a-c1fd-3dc95649719d?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 326,
+        "cameraName": "Carpark B2/F Carpark (Near R78)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/683e175b-92bf-f873-a0c0-38d634410ff5?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 327,
+        "cameraName": "Carpark B2/F Carpark (Near R82)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/d4118da9-66f9-33b6-cb64-71b9d0ecaa33?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 328,
+        "cameraName": "Carpark B2/F Driveway 1 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/f077200b-3f78-e591-1087-409994782182?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 329,
+        "cameraName": "Carpark B2/F Driveway 2 (T3)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/7493c1e7-609b-cb0f-f5b7-74805a0ee08d?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 330,
+        "cameraName": "Carpark B2/F Carpark (R91)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/b5e65909-a92b-6280-0a3c-e20f395e09fe?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 331,
+        "cameraName": "Carpark B2/F Carpark (R93)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/2896ea4d-6895-5a99-c358-d9099b107fb3?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 332,
+        "cameraName": "Carpark B2/F Carpark (R100)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/8221873d-faae-1211-2552-45d3645d56b5?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 333,
+        "cameraName": "Carpark B2/F Carpark (RM12)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/6e4eab9f-035c-f3d2-fac3-623ccd3c960e?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 334,
+        "cameraName": "Carpark B2/F Driveway (T2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/7c089fbf-4cb7-992a-bdd1-31a191d6c4a8?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 335,
+        "cameraName": "Carpark B2/F Carpark (Near R106)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/14ecc1c0-7ecc-0857-ddcf-39e6e4a6ae4c?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 336,
+        "cameraName": "Carpark B2/F Carpark (Near R107)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/405c9375-859d-e8ad-b3fe-cb31fff0e99d?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 337,
+        "cameraName": "Carpark B2/F Carpark (Near R108)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/bdba3be2-02a6-5a1e-fb10-5ade66140bd3?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 338,
+        "cameraName": "Carpark B2/F Carpark (R101)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/9fdbe4eb-65cf-f87b-e18f-f17815b48807?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 339,
+        "cameraName": "Carpark B2/F Carpark (Near R102)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/96981d20-c2fd-fd21-d27a-a22773e841ae?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 340,
+        "cameraName": "Carpark B2/F Carpark (R114)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/dc5af347-25b1-e676-3a9e-782c7d99f9c7?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 341,
+        "cameraName": "Carpark B2/F Carpark (Near V002)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/8667eca7-c370-34d2-3df2-4a230d9cc58e?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 342,
+        "cameraName": "Carpark B2/F Carpark (R118)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/dc9acd45-d018-19bc-d07b-069b7bc15206?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 343,
+        "cameraName": "Carpark B2/F Carpark (V004)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/650c0453-f9fc-f21c-26ff-ea3c2fba78d1?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 344,
+        "cameraName": "Carpark B2/F Carpark (R121)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7008/849e97a5-e6e4-d113-86b2-8e9784ddfb62?stream=1",
+        "tcpport": 7008
+    },
+    {
+        "cameraID": 345,
+        "cameraName": "Carpark B2/F Elect. Room (Near CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/2e881c99-bb6e-ce82-1f4a-1bcabd77c3dc?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 346,
+        "cameraName": "Carpark B2/F Plant Room Corridor (Near CA)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/bce6d423-8232-c203-9e5f-c815f626b1da?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 347,
+        "cameraName": "Retail Block 1 R/F Staircase ST-2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/5c04fe38-4eb6-6f04-63ff-279ab4a42dfb?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 348,
+        "cameraName": "Retail Block 1 R/F Flat Roof-1",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/3daca456-eed7-8c53-17fd-7258674d1248?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 349,
+        "cameraName": "Retail Block 1 R/F Flat Roof-2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/edcf31c2-bf94-1cc7-81f8-cfd164e36b09?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 350,
+        "cameraName": "Retail Block 1 R/F Flat Roof-3",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/06190187-b420-f56c-7bbc-e42c63ed44d6?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 351,
+        "cameraName": "Retail Block 1 R/F Flat Roof-4",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/b30565d8-9c6a-a080-0618-414d2d7c4feb?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 352,
+        "cameraName": "Retail Block 1 1/F TRS ST-1",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/4a8f7f93-6a0f-d83f-7773-7be01083f847?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 353,
+        "cameraName": "Retail Block 1 1/F TRS ST-2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/9ba8d330-0ad1-38da-8ddb-2814e0ad7a7e?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 354,
+        "cameraName": "Retail Block 1 G/F Lift 22",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/9270223e-69cb-e06f-3345-22c41ddb24a6?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 355,
+        "cameraName": "Retail Block 1 G/F Lift 24",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/e48ce3e9-78e2-e25c-89ef-2dec3d91a413?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 356,
+        "cameraName": "Retail Block 1 G/F Lift 25",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/98477d4d-e2f2-2f5d-52c5-596da8034df7?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 357,
+        "cameraName": "Retail Block 1 G/F Public Passage Area 1",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/563a7aca-5f6c-5723-9dc5-8e0e5641b472?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 358,
+        "cameraName": "Retail Block 1 G/F Public Passage Area 2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/b4813c13-9168-99c7-5590-7f8020c53777?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 359,
+        "cameraName": "Retail Block 1 G/F Public Passage Area 3",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/11d3fd0c-2463-5220-b571-4f7410c4c0b8?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 360,
+        "cameraName": "Retail Block 1 G/F Public Passage Area 4",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/f0e709b0-66d3-ca03-f575-4ddf9645c6e5?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 361,
+        "cameraName": "Retail Block 1 G/F Public Passage Area 5",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/ea1f525c-1463-7d18-2a10-2c2125b68d2f?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 362,
+        "cameraName": "Retail Block 1 G/F Metal Gate",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/33be602f-2147-6832-6179-cf5b5ff87917?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 363,
+        "cameraName": "Podium G/F Pet Waste Station",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/3894f6c7-9bf6-038b-cf9e-b07f270d182d?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 364,
+        "cameraName": "Podium G/F Landscape 2 (CD)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/5efbf26e-00ee-7d7e-2bcc-ae7839477659?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 365,
+        "cameraName": "Retail Block 1 B1/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/9645a093-e4bc-3037-b7e9-4454cc1ed0f9?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 366,
+        "cameraName": "Retail Block 1 B1/F TRS (Pump Room Corridor)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/d5af5c7c-267d-6583-8719-964207196249?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 367,
+        "cameraName": "Retail Block 2 R/F Staircase ST-4",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/1cd86fb4-6421-f505-6432-31f8258f1df9?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 368,
+        "cameraName": "Retail Block 2 R/F Flat Roof-1",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/ed20bc0c-f00a-1b66-06c3-fbf158886f28?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 369,
+        "cameraName": "Retail Block 2 R/F Flat Roof-2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/07842339-fa7a-b539-afc2-3f043a3c8dbe?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 370,
+        "cameraName": "Retail Block 2 1/F Lift Lobby-1",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/bee07e0d-340d-6d0b-8819-3a590459e8c6?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 371,
+        "cameraName": "Retail Block 2 1/F Lift Lobby-2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/77b6876b-e37e-4894-037f-83fb2376d2e2?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 372,
+        "cameraName": "Retail Block 2 1/F TRS ST-3",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/7097ddb0-d9bb-016b-2aa4-b6ae2d995f57?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 373,
+        "cameraName": "Retail Block 2 G/F Lift 23",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/5724feed-4b07-401f-2cc8-506be177a72f?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 374,
+        "cameraName": "Retail Block 2 G/F Metal Gate",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/fa9601f7-09b0-ed40-c5b8-51fbf85b0396?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 375,
+        "cameraName": "Retail Block 2 G/F Public Passage Area 1",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/a74cccaf-0928-daf0-64b9-9bd970ad5e8f?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 376,
+        "cameraName": "Retail Block 2 G/F Public Passage Area 2",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/0de30c59-887f-8d5c-3e7b-0beadb85da9c?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 377,
+        "cameraName": "Retail Block 2 G/F Public Passage Area 3",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/117d7161-e661-60dc-4d53-9f3c40f8ac4a?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 378,
+        "cameraName": "Retail Block 2 G/F Landscape 1 (RT2) ",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/fa1904ba-0d5a-f2c6-8dff-6f6c25191ee2?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 379,
+        "cameraName": "Retail Block 2 G/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/ff0e1253-ffde-1ea1-ee12-b2f263fb4eb8?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 380,
+        "cameraName": "Retail Block 2 B1/F Lift Lobby",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/0b8cb11d-15b0-7d80-32b7-fe789c3673ec?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 381,
+        "cameraName": "Podium G/F Barrier Gate (Driveway IN)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/e66e0c4d-e203-888b-1651-1f3a95c2f34b?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 382,
+        "cameraName": "Podium G/F Barrier Gate (Driveway OUT)",
+        "channel": 1,
+        "locationMask": 1792,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/29b06f9b-c5dd-d5b0-246b-3357599aeaf6?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 383,
+        "cameraName": "Club House G/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/db8505af-32d3-6d21-e5be-0ab2af1b3e2f?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 384,
+        "cameraName": "Club House G/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/7fc301c7-dacd-5c5c-fad1-5e2c66838528?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 385,
+        "cameraName": "Club House G/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/8e6c3a2b-0219-7bd8-6428-1fb4e881330c?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 386,
+        "cameraName": "Club House G/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/943b1e2e-cc46-e3fa-c376-ffd42168a8f7?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 387,
+        "cameraName": "Club House G/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/10689af4-9073-8058-92f0-b608b3dc9152?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 388,
+        "cameraName": "Club House G/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/98943f23-249b-972b-d0ff-acb60b09e886?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 389,
+        "cameraName": "Club House G/F Lift 21",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/13cd66ee-f676-95b2-123d-65145a7df901?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 390,
+        "cameraName": "Club House G/F Club House Lobby 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/95ccc8b8-456a-4238-6f19-0a2566fd3b5e?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 391,
+        "cameraName": "Club House G/F Club House Lobby 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/8cc614ca-6e4f-a566-732a-21845790788a?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 392,
+        "cameraName": "Club House G/F Club House Lobby 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/906fc3a0-d90b-6445-324c-df5f88155725?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 393,
+        "cameraName": "Club House G/F Club House Lobby 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/6b4863d6-013c-00d3-d312-f5420bf17d5f?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 394,
+        "cameraName": "Club House G/F Club House Lobby 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/93f6679a-8426-8f4f-a2fe-0806108d4365?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 395,
+        "cameraName": "Club House G/F Children Play Room",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/ab6cc0e2-761d-0191-de21-ece4e0b8cfeb?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 396,
+        "cameraName": "Club House G/F Children Play Room",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/2573e41b-a7ee-257d-ebba-15fc81b5ca2e?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 397,
+        "cameraName": "Club House B1/F Children Play Room",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/f041343d-1527-5ea8-0c4a-2a79b0e832ce?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 398,
+        "cameraName": "Club House B1/F Children Play Room",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/ffba3d4f-30f3-5072-5152-aa249cde85f6?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 399,
+        "cameraName": "Club House B1/F Children Play Room",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/636817bd-449e-6a3f-65d2-1c595b53a8f0?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 400,
+        "cameraName": "Club House B1/F Gymnasium (near CA)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/8b1d3aca-cfb8-390a-31d6-fc896c09bdd0?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 401,
+        "cameraName": "Club House B1/F Gymnasium (near CA)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/aab2883f-8f2f-f9eb-bf70-4b74b5d574f2?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 402,
+        "cameraName": "Club House B1/F Gymnasium (near CA)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/2f0de9c4-6e22-d8f5-12df-89ee8754c6aa?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 403,
+        "cameraName": "Club House B1/F Gymnasium (near CA)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/ab9bd5e0-60f4-4dd1-cfc1-4faa79b10080?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 404,
+        "cameraName": "Club House B1/F Gymnasium (near CB)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/b74f6ded-f988-40c2-9b01-ce1eb5810561?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 405,
+        "cameraName": "Club House B1/F Gymnasium (near CB)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/2c5f12bb-e172-b4ba-368f-e64f7ec97f6d?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 406,
+        "cameraName": "Club House B1/F Gymnasium (near CB)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/fe67149f-81f5-292e-2dee-6505f1a6ea41?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 407,
+        "cameraName": "Club House B1/F Gymnasium (near CB)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/f62ab800-30d9-cdc4-786d-078ca9296f81?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 408,
+        "cameraName": "Club House B1/F Gymnasium (near CB)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/4275bdd8-22e4-bdfc-9042-048acf5aa453?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 409,
+        "cameraName": "Club House B1/F Club House Lobby 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/518032ad-c301-f2a6-9eb6-261319b53e18?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 410,
+        "cameraName": "Club House B1/F Club House Lobby 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/0160167b-a090-4f20-e2d6-cfea64382c0d?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 411,
+        "cameraName": "Club House B1/F Club House Lobby 3",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/82436930-59c4-e5c4-8ef3-d5b2a4fa21d2?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 412,
+        "cameraName": "Club House B1/F Toilet",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/57d7507f-f597-8183-ca91-6cf74f32ae25?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 413,
+        "cameraName": "Club House B1/F Pre-Function Lounge",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/c1ed1c5f-f299-72f8-4bfd-d127e0b44657?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 414,
+        "cameraName": "Club House B1/F Pool House 1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/e3c6f355-274e-e5c6-51f6-2b9b8143268b?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 415,
+        "cameraName": "Club House B1/F Pool House 2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/12189426-4f45-6ded-c9be-56ad0290b4bd?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 416,
+        "cameraName": "Club House B1/F Game Zone",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/8158c70d-387e-22f5-7455-e52d61b5aa31?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 417,
+        "cameraName": "Club House B1/F Corridor (Near Game Zone)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/0fba3389-9344-0f95-62c0-554d90ce6b1f?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 418,
+        "cameraName": "Club House B1/F Cooridor (Near F. Changing Room)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/9b9074ec-1cf6-e4cb-80a5-bb8de4fb1df7?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 419,
+        "cameraName": "Club House B1/F Corridor (Near M. Changing Room)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/5014a8b1-5274-cec2-f5ea-a1581db70e8f?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 420,
+        "cameraName": "Club House B1/F Corridor (Near Disable Lav.)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/d1866e11-6da2-ab33-ace3-4bd5a70159c8?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 421,
+        "cameraName": "Club House B1/F Corridor (Near Sauna Room)",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/06b70cde-449d-48cb-dee3-4e9a36bbaa9e?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 422,
+        "cameraName": "Club House G/F Function Room A1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/4668cbfc-aee5-00e9-eb82-063016b6ac66?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 423,
+        "cameraName": "Club House G/F Function Room A2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/fcfa47d9-0f0d-fb74-1fc2-b9125108f3ec?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 424,
+        "cameraName": "Club House G/F Function Room B1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/510e6204-278b-eb65-52c8-7d53b3cb4cfc?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 425,
+        "cameraName": "Club House G/F Function Room B2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/707051a4-626a-5c48-7dcf-8f779bacaaf9?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 426,
+        "cameraName": "Club House G/F Function Room C1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/21df7aa1-4080-47d1-e0f0-1db15c94c131?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 427,
+        "cameraName": "Club House G/F Function Room C2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/2c96c967-15c0-b64f-e793-34c5700eb8a1?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 428,
+        "cameraName": "Club House G/F Function Room D1",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/f9b74800-ad84-4acd-29bb-6a4441976711?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 429,
+        "cameraName": "Club House G/F Function Room D2",
+        "channel": 1,
+        "locationMask": 384,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7010/8e875e10-08b4-6025-769e-aeb645eecfce?stream=1",
+        "tcpport": 7010
+    },
+    {
+        "cameraID": 430,
+        "cameraName": "Podium G/F G/F Planter Between T1 & T2 (1)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/15ee9496-49f0-f622-01dd-9b7565ed9555?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 431,
+        "cameraName": "Podium G/F G/F Planter Between T1 & T2 (2)",
+        "channel": 1,
+        "locationMask": 256,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7009/05d8d695-42ee-fce4-d053-5cf1c0f4fc56?stream=1",
+        "tcpport": 7009
+    },
+    {
+        "cameraID": 432,
+        "cameraName": "B1/F SwimmingPool (1)",
+        "channel": 1,
+        "locationMask": 128,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/268f7b91-edb0-4bfb-f276-4989460906ef?stream=1",
+        "tcpport": 7004
+    },
+    {
+        "cameraID": 433,
+        "cameraName": "B1/F Swimminf Pool(2)",
+        "channel": 1,
+        "locationMask": 128,
+        "password": "Aa12345678",
+        "username": "view",
+        "ipaddress": "113.212.236.185:7004/e4b1ccb6-4c32-ba67-7549-884603b246d1?stream=1",
+        "tcpport": 7004
+    }
+]

@@ -1,0 +1,704 @@
+[
+  {
+    "cameraId": 1,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55443/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55443/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "RF",
+    "x": 585,
+    "y": 445,
+    "location": "R/F ST-1",
+    "floor": "R/F"
+  },
+  {
+    "cameraId": 2,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55469/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55469/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "RF",
+    "x": 312,
+    "y": 362,
+    "location": "R/F ST-2",
+    "floor": "R/F"
+  },
+  {
+    "cameraId": 3,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55478/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55478/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "RF",
+    "x": 307,
+    "y": 216,
+    "location": "R/F Lift Lobby - 1",
+    "floor": "R/F"
+  },
+  {
+    "cameraId": 4,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55477/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55477/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "RF",
+    "x": 588,
+    "y": 221,
+    "location": "R/F Lift Lobby - 2",
+    "floor": "R/F"
+  },
+  {
+    "cameraId": 5,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55464/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55464/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "29F",
+    "x": 592,
+    "y": 267,
+    "location": "29/F TRS",
+    "floor": "29/F"
+  },
+  {
+    "cameraId": 6,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55441/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55441/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "28F",
+    "x": 592,
+    "y": 267,
+    "location": "28/F TRS",
+    "floor": "28/F"
+  },
+  {
+    "cameraId": 7,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55458/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55458/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "27F",
+    "x": 592,
+    "y": 267,
+    "location": "27/F TRS",
+    "floor": "27/F"
+  },
+  {
+    "cameraId": 8,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55432/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55432/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "26F",
+    "x": 592,
+    "y": 267,
+    "location": "26/F TRS",
+    "floor": "26/F"
+  },
+  {
+    "cameraId": 9,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55457/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55457/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "25F",
+    "x": 592,
+    "y": 267,
+    "location": "25/F TRS",
+    "floor": "25/F"
+  },
+  {
+    "cameraId": 10,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55438/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55438/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "23F",
+    "x": 592,
+    "y": 267,
+    "location": "23/F TRS",
+    "floor": "23/F"
+  },
+  {
+    "cameraId": 11,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55431/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55431/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "22F",
+    "x": 592,
+    "y": 267,
+    "location": "22/F TRS",
+    "floor": "22/F"
+  },
+  {
+    "cameraId": 12,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55446/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55446/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "21F",
+    "x": 592,
+    "y": 267,
+    "location": "21/F TRS",
+    "floor": "21/F"
+  },
+  {
+    "cameraId": 13,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55436/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55436/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "20F",
+    "x": 592,
+    "y": 267,
+    "location": "20/F TRS",
+    "floor": "20/F"
+  },
+  {
+    "cameraId": 14,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55447/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55447/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "19F",
+    "x": 592,
+    "y": 267,
+    "location": "19/F TRS",
+    "floor": "19/F"
+  },
+  {
+    "cameraId": 15,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55433/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55433/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "18F",
+    "x": 592,
+    "y": 267,
+    "location": "18/F TRS",
+    "floor": "18/F"
+  },
+  {
+    "cameraId": 16,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55451/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55451/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "17F",
+    "x": 592,
+    "y": 267,
+    "location": "17/F TRS",
+    "floor": "17/F"
+  },
+  {
+    "cameraId": 17,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55439/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55439/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "16F",
+    "x": 592,
+    "y": 267,
+    "location": "16/F TRS",
+    "floor": "16/F"
+  },
+  {
+    "cameraId": 18,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55461/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55461/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "15F",
+    "x": 592,
+    "y": 267,
+    "location": "15/F TRS",
+    "floor": "15/F"
+  },
+  {
+    "cameraId": 19,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55434/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55434/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "12F",
+    "x": 592,
+    "y": 267,
+    "location": "12/F TRS",
+    "floor": "12/F"
+  },
+  {
+    "cameraId": 20,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55455/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55455/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "11F",
+    "x": 592,
+    "y": 267,
+    "location": "11/F TRS",
+    "floor": "11/F"
+  },
+  {
+    "cameraId": 21,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55476/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55476/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "10F",
+    "x": 592,
+    "y": 267,
+    "location": "10/F TRS",
+    "floor": "10/F"
+  },
+  {
+    "cameraId": 22,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55444/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55444/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "9F",
+    "x": 592,
+    "y": 267,
+    "location": "9/F TRS",
+    "floor": "9/F"
+  },
+  {
+    "cameraId": 23,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55470/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55470/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "8F",
+    "x": 592,
+    "y": 267,
+    "location": "8/F TRS",
+    "floor": "8/F"
+  },
+  {
+    "cameraId": 24,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55454/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55454/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "7F",
+    "x": 592,
+    "y": 267,
+    "location": "7/F TRS",
+    "floor": "7/F"
+  },
+  {
+    "cameraId": 25,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55471/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55471/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "6F",
+    "x": 592,
+    "y": 267,
+    "location": "6/F TRS",
+    "floor": "6/F"
+  },
+  {
+    "cameraId": 26,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55474/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55474/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "5F",
+    "x": 663,
+    "y": 251,
+    "location": "5/F TRS",
+    "floor": "5/F"
+  },
+  {
+    "cameraId": 27,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55449/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55449/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "3F",
+    "x": 397,
+    "y": 214,
+    "location": "3/F Clubhouse",
+    "floor": "3/F"
+  },
+  {
+    "cameraId": 28,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55452/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55452/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "3F",
+    "x": 748,
+    "y": 293,
+    "location": "3/F Clubhouse",
+    "floor": "3/F"
+  },
+  {
+    "cameraId": 29,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55456/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55456/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "3F",
+    "x": 529,
+    "y": 368,
+    "location": "3/F Lobby",
+    "floor": "3/F"
+  },
+  {
+    "cameraId": 30,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55472/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55472/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "3F",
+    "x": 1159,
+    "y": 226,
+    "location": "3/F Clubhouse",
+    "floor": "3/F"
+  },
+  {
+    "cameraId": 31,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55435/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55435/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 506,
+    "y": 153,
+    "location": "2/F EX1",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 32,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55437/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55437/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 646,
+    "y": 136,
+    "location": "2/F Lift 4 Lobby",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 33,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55473/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55473/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 528,
+    "y": 368,
+    "location": "2/F Lobby - 1",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 34,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55430/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55430/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 741,
+    "y": 368,
+    "location": "2/F Lobby - 2",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 35,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55453/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55453/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 529,
+    "y": 295,
+    "location": "2/F Welcome Lounge",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 36,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55467/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55467/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 497,
+    "y": 169,
+    "location": "2/F Sunlit Library - 1",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 37,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55440/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55440/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 503,
+    "y": 401,
+    "location": "2/F Sunlit Library - 2",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 38,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55468/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55468/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 152,
+    "y": 401,
+    "location": "2/F Sunlit Library - 3",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 39,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55462/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55462/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 753,
+    "y": 295,
+    "location": "2/F Art Studio",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 40,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55445/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55445/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 997,
+    "y": 170,
+    "location": "2/F Piano Room",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 41,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55450/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55450/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 1021,
+    "y": 218,
+    "location": "2/F Music Room",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 42,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55479/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55479/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 1167,
+    "y": 347,
+    "location": "2/F Band Studio",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 43,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55466/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55466/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "2F",
+    "x": 1151,
+    "y": 169,
+    "location": "2/F Singing Room",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 44,
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.24:55501/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.24:55501/stream1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 665,
+    "y": 434,
+    "location": "Lift 1",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 45,
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.24:55502/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.24:55502/stream1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 613,
+    "y": 434,
+    "location": "Lift 2",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 46,
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.24:55503/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.24:55503/stream1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 560,
+    "y": 434,
+    "location": "Lift 3",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 47,
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.24:55506/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.24:55506/stream1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 599,
+    "y": 144,
+    "location": "Lift 4",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 48,
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.24:55508/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.24:55508/stream1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 112,
+    "y": 321,
+    "location": "Lift 5",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 49,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55448/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55448/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 701,
+    "y": 341,
+    "location": "G/F Mail Box",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 50,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55442/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55442/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 1159,
+    "y": 241,
+    "location": "G/F EX1",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 51,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55463/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55463/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 383,
+    "y": 536,
+    "location": "G/F EX2",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 52,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55460/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55460/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 1178,
+    "y": 228,
+    "location": "G/F EX3",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 53,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55465/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55465/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 410,
+    "y": 545,
+    "location": "G/F EX4",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 54,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.24:55475/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.24:55475/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "GF",
+    "x": 689,
+    "y": 490,
+    "location": "G/F EX5",
+    "floor": "G/F"
+  }
+]

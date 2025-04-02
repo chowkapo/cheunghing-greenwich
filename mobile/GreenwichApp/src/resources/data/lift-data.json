@@ -1,0 +1,18 @@
+{
+  "L1": {
+    "liftName": "L1",
+    "modbusChannelID": 1
+  },
+  "L2": {
+    "liftName": "L2",
+    "modbusChannelID": 2
+  },
+  "L3": {
+    "liftName": "L3",
+    "modbusChannelID": 3
+  },
+  "L4": {
+    "liftName": "L4",
+    "modbusChannelID": 4
+  }
+}

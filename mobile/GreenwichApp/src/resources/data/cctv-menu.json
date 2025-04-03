@@ -57,7 +57,7 @@
   },
   {
     "id": "fg2",
-    "label": "12/F - 21/F",
+    "label": "12/F - 19/F",
     "floors": [
       {
         "id": "fg2-f12",
@@ -89,6 +89,12 @@
         "label": "19/F",
         "mapid": "19F"
       },
+    ]
+  },
+  {
+    "id": "fg3",
+    "label": "20/F - 26/F",
+    "floors": [
       {
         "id": "fg2-f20",
         "label": "20/F",
@@ -98,13 +104,7 @@
         "id": "fg2-f21",
         "label": "21/F",
         "mapid": "21F"
-      }
-    ]
-  },
-  {
-    "id": "fg3",
-    "label": "22/F - 26/F",
-    "floors": [
+      },
       {
         "id": "fg3-f22",
         "label": "22/F",

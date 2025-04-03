@@ -106,7 +106,7 @@ const LoginScreen = () => {
 
   return (
     <SafeAreaView style={styles.safeView}>
-      <ImageBackground source={bgImage} resizeMode="cover">
+      <ImageBackground source={bgImage} resizeMode="cover" imageStyle={{opacity: 0.5}}>
         <KeyboardAvoidingView behavior="padding">
           <View style={styles.sectionContainer}>
             <View style={styles.bannerContainer}>

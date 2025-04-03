@@ -157,7 +157,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             </View>
           </View>
 
-          {user.adminMode && (
+          {/*user.adminMode && (
             <View style={styles.itemContainer}>
               <View style={styles.heading}>
                 <Text style={styles.headingText}>Location Mask</Text>
@@ -182,7 +182,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
                 </TouchableOpacity>
               </View>
             </View>
-          )}
+          )*/}
 
           <View style={styles.itemContainer}>
             <View style={styles.heading}>

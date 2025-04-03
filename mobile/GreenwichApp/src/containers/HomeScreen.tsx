@@ -172,8 +172,8 @@ const HomeScreen = ({navigation}: {navigation: TNavigationProp}) => {
         </View>
       </View>
       <SensorAlertList
-        maxHeight={windowHeight / 4}
-        minHeight={windowHeight / 6}
+        maxHeight={windowHeight / 3}
+        minHeight={windowHeight / 4}
         events={events}
         onInputPointView={inputPointViewHandler}
       />

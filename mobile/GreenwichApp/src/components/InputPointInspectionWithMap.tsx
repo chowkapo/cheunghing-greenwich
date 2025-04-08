@@ -41,7 +41,7 @@ const InputPointInspectionWithMap = ({
   } | null>(null);
   const [imageUrl, setImageUrl] = React.useState<string | null>(null);
   const [loading, setLoading] = React.useState(false);
-  const refreshFrequency = useAppSelector(state => state.user.refreshFrequency);
+  const refreshFrequency = useAppSelector(state => state.user?.refreshFrequency ?? 10000);
 
   React.useEffect(() => {
     // console.debug(`map changed: ${JSON.stringify(map)}`);
@@ -77,7 +77,7 @@ const InputPointInspectionWithMap = ({
       })
         .then(res => {
           setImageUrl(res);
-          setLoading(false);
+          // setLoading(false);
           // console.debug('the path is' + res);
         })
         .catch(err => {
@@ -123,6 +123,7 @@ const InputPointInspectionWithMap = ({
       );
       // console.debug(`inputPointPressed = ${JSON.stringify(inputPointPressed)}`);
       if (inputPointPressed && !loading) {
+        setLoading(true); // set loading to true to hide previous map image, to prevent map image flickering during update
         const targetMap = mapData.find(v => v.id === inputPointPressed.mapId);
         const mapInfo = {
           name: `${inputPointPressed.canonicalName}${inputPointPressed.location ? ' @ ' + inputPointPressed.location : ''}`,
@@ -132,7 +133,6 @@ const InputPointInspectionWithMap = ({
           x: inputPointPressed.x,
           y: inputPointPressed.y,
         };
-        // console.debug(`mapInfo = ${JSON.stringify(mapInfo)}`);
         setMap(mapInfo);
       }
     },

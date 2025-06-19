@@ -1,0 +1,10 @@
+{
+  "name": "TCDM",
+  "version": "1.0",
+  "accessCode": "aahk",
+  "icon": "https://cnrapp.blob.core.windows.net/ipa/tcdm/tcdm.png",
+  "ios": {
+    "updated": "2020-04-24",
+    "url": "itms-services://?action=download-manifest&url=https://cnrapp.blob.core.windows.net/ipa/tcdm/manifest.plist"
+  }
+}

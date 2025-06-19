@@ -1,0 +1,146 @@
+body {
+  background-color: #282c34;
+  background-image: url(images/curvylines.png);
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+a {
+  text-decoration: none;
+  color: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  color: #fff;
+}
+
+.App-logo {
+  margin-top: 5vmin;
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animated {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+img.app-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.App-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.App-download-div {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  width: 50vw;
+  max-width: 50vw;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.App-download {
+  padding: 10px;
+  background-color: #DDE;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 15vw;
+  margin: 20px;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 60px 0px rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.App-download img {
+  margin-left: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotateY(0deg);    }
+  to   { -webkit-transform: rotateY(-360deg); }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+
+.footer {
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}

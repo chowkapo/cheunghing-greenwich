@@ -1,0 +1,18 @@
+{
+  "name": "Windsor",
+  "version": "1.0",
+  "accessCode": "4e02e42a82d17e63c9c5295a83e062a4",
+  "bannerLogo": "./greenwich.svg",
+  "backgroundImage": "./curvylines.png",
+  "backgroundColor": "#a25e2a",
+  "color": "#D3ECA7",
+  "buttonBackgroundColor": "#d5d2c7",
+  "buttonFontColor": "#222222",
+  "organization": "Cheung Hing Electronic & Electrical Engineering",
+  "organizationUrl": "http://www.cheunghingelectronic.com/en/index.html",
+  "icon": "greenwich.png",
+  "ios": {
+    "updated": "2025-03-30 17:32",
+    "url": "U2FsdGVkX19vPMj2ZYFqprJB3v0UZYat8vgCbv07pMzcHX9uaAaVbY3EulMzs6JN57h3LePUbFcJwyx85veyDWWKF9MtYlX5CmdPC1EHU2DKotG0Wenhvf03N1y+zQ5l96QWXcIp868vt0uxskIGOhy0XZEjwE6O+4Z6lutMy1I="
+  }
+}

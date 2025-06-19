@@ -1,0 +1,18 @@
+{
+  "name": "Paddington",
+  "version": "1.0",
+  "accessCode": "b145bc9748a42fbbdba214a3b7d4842f",
+  "bannerLogo": "./paddington.svg",
+  "backgroundImage": "./curvylines.png",
+  "backgroundColor": "#db7228",
+  "color": "#D3ECA7",
+  "buttonBackgroundColor": "#d5d2c7",
+  "buttonFontColor": "#222222",
+  "organization": "Cheung Hing Electronic & Electrical Engineering",
+  "organizationUrl": "http://www.cheunghingelectronic.com/en/index.html",
+  "icon": "paddington.png",
+  "ios": {
+    "updated": "2025-04-07 17:01",
+    "url": "U2FsdGVkX19Z6Il7Z8BXVotPn4ApYDzgWRla65etVP4cuCpv8/00tJPXJhVS+sJiufuRzYNp4R2gasWvqceiOu+x8UnDU2Iwh1MeTNO7/zzB2j+Wq1iV473zoYJUeTln1Zqc1UtdhMrIFbaX7xysfkbF9pzvShPe07C3IuZhYE8="
+  }
+}

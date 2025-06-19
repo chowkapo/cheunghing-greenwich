@@ -1,0 +1,18 @@
+{
+  "name": "Greenwich",
+  "version": "1.0",
+  "accessCode": "greenwich",
+  "bannerLogo": "./greenwich.svg",
+  "backgroundImage": "./curvylines.png",
+  "backgroundColor": "#a25e2a",
+  "color": "#D3ECA7",
+  "buttonBackgroundColor": "#d5d2c7",
+  "buttonFontColor": "#222222",
+  "organization": "Cheung Hing Electronic & Electrical Engineering",
+  "organizationUrl": "http://www.cheunghingelectronic.com/en/index.html",
+  "icon": "greenwich.png",
+  "ios": {
+    "updated": "2025-03-30 17:32",
+    "url": "itms-services://?action=download-manifest&url=https://chowkapo.bitbucket.io/greenwich/manifest.plist"
+  }
+}

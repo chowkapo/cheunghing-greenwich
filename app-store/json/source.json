@@ -1,0 +1,10 @@
+{
+  "name": "BFMS",
+  "version": "1.0",
+  "accessCode": "bfms",
+  "icon": "https://cnrtemp.blob.core.windows.net/kapo/bfms/bfms.png",
+  "ios": {
+    "updated": "2020-11-08",
+    "url": "itms-services://?action=download-manifest&url=https://cnrtemp.blob.core.windows.net/kapo/bfms/manifest.plist"
+  }
+}

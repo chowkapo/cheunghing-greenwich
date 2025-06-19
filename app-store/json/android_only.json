@@ -1,0 +1,10 @@
+{
+  "name": "TCDM",
+  "version": "1.0",
+  "accessCode": "aahk",
+  "icon": "https://cnrapp.blob.core.windows.net/ipa/tcdm/tcdm.png",
+  "android": {
+    "updated": "2020-04-23",
+    "url": "https://cnrapp.blob.core.windows.net/ipa/tcdm/tcdm.apk"
+  }
+}

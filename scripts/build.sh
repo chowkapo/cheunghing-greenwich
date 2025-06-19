@@ -58,7 +58,7 @@ if [[ -f ../../builds/$APP-$DATE/GreenwichApp.ipa ]]; then
 	if [ "$to_deploy" -eq 1 ]; then
 		echo "Deployment will now proceed"
 		cd $DIR
-		./deploy.sh ../builds/$APP-$DATE/$APP.ipa
+		./deploy-greenwich.sh ../builds/$APP-$DATE/$APP.ipa
 	else
 		cd $DIR
 		echo "No deployment will be performed. IPA found below:"

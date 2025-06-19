@@ -24,84 +24,6 @@ const cctvMapData: {
     "width": 1200,
     "height": 472
   },
-  "RF": {
-    "id": "RF",
-    "src": require('../cctv_map_images/RF.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "26F": {
-    "id": "26F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "25F": {
-    "id": "25F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "23F": {
-    "id": "23F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "22F": {
-    "id": "22F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "21F": {
-    "id": "21F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "20F": {
-    "id": "20F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "19F": {
-    "id": "19F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "18F": {
-    "id": "18F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "17F": {
-    "id": "17F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "16F": {
-    "id": "16F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "15F": {
-    "id": "15F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "12F": {
-    "id": "12F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
   "11F": {
     "id": "11F",
     "src": require('../cctv_map_images/6-26F.png'),
@@ -114,35 +36,59 @@ const cctvMapData: {
     "width": 1200,
     "height": 485
   },
-  "9F": {
-    "id": "9F",
+  "15F": {
+    "id": "15F",
     "src": require('../cctv_map_images/6-26F.png'),
     "width": 1200,
     "height": 485
   },
-  "8F": {
-    "id": "8F",
-    "src": require('../cctv_map_images/6-26F.png'),
+  "BF": {
+    "id": "BF",
+    "src": require('../cctv_map_images/BF.png'),
     "width": 1200,
-    "height": 485
+    "height": 512
   },
-  "7F": {
-    "id": "7F",
-    "src": require('../cctv_map_images/6-26F.png'),
+  "BFA": {
+    "id": "BFA",
+    "src": require('../cctv_map_images/BF.png'),
     "width": 1200,
-    "height": 485
+    "height": 512
   },
-  "6F": {
-    "id": "6F",
-    "src": require('../cctv_map_images/6-26F.png'),
+  "BFB": {
+    "id": "BFB",
+    "src": require('../cctv_map_images/BF.png'),
     "width": 1200,
-    "height": 485
+    "height": 512
+  },
+  "BFC": {
+    "id": "BFC",
+    "src": require('../cctv_map_images/BF.png'),
+    "width": 1200,
+    "height": 512
   },
   "GF": {
     "id": "GF",
     "src": require('../cctv_map_images/GF.png'),
     "width": 1200,
     "height": 544
+  },
+  "RF1": {
+    "id": "RF1",
+    "src": require('../cctv_map_images/RF.png'),
+    "width": 1200,
+    "height": 485
+  },
+  "RF": {
+    "id": "RF",
+    "src": require('../cctv_map_images/RF.png'),
+    "width": 1200,
+    "height": 485
+  },
+  "RF2": {
+    "id": "RF2",
+    "src": require('../cctv_map_images/RF.png'),
+    "width": 1200,
+    "height": 485
   },
   "URF1": {
     "id": "URF1",
@@ -155,6 +101,36 @@ const cctvMapData: {
     "src": require('../cctv_map_images/URF1.png'),
     "width": 1200,
     "height": 1219
+  },
+  "5F": {
+    "id": "5F",
+    "src": require('../cctv_map_images/5F.png'),
+    "width": 1200,
+    "height": 526
+  },
+  "6-26F": {
+    "id": "6-26F",
+    "src": require('../cctv_map_images/6-26F.png'),
+    "width": 1200,
+    "height": 485
+  },
+  "27-28F": {
+    "id": "27-28F",
+    "src": require('../cctv_map_images/27-28F.png'),
+    "width": 1200,
+    "height": 485
+  },
+  "29F": {
+    "id": "29F",
+    "src": require('../cctv_map_images/29F.png'),
+    "width": 1200,
+    "height": 485
+  },
+  "7-25F": {
+    "id": "7-25F",
+    "src": require('../cctv_map_images/7-25F.png'),
+    "width": 1200,
+    "height": 485
   }
 }
 export default cctvMapData

@@ -1,5 +1,10 @@
 [
   {
+    "id": "bf",
+    "label": "B/F",
+    "mapid": "BF"
+  },
+  {
     "id": "gf",
     "label": "G/F",
     "mapid": "GF"
@@ -21,109 +26,130 @@
   },
   {
     "id": "fg1",
-    "label": "6/F - 11/F",
+    "label": "5/F - 10/F",
     "floors": [
+
+      {
+        "id": "fg1-f5",
+        "label": "5/F",
+        "mapid": "5F"
+      },
       {
         "id": "fg1-f6",
         "label": "6/F",
-        "mapid": "6F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg1-f7",
         "label": "7/F",
-        "mapid": "7F"
+        "mapid": "7-25F"
       },
       {
         "id": "fg1-f8",
         "label": "8/F",
-        "mapid": "8F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg1-f9",
         "label": "9/F",
-        "mapid": "9F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg1-f10",
         "label": "10/F",
-        "mapid": "10F"
-      },
-      {
-        "id": "fg1-f11",
-        "label": "11/F",
-        "mapid": "11F"
+        "mapid": "7-25F"
       }
     ]
   },
   {
     "id": "fg2",
-    "label": "12/F - 19/F",
+    "label": "11/F - 20/F",
     "floors": [
+      {
+        "id": "fg2-f11",
+        "label": "11/F",
+        "mapid": "6-26F"
+      },
       {
         "id": "fg2-f12",
         "label": "12/F",
-        "mapid": "12F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg2-f15",
         "label": "15/F",
-        "mapid": "15F"
+        "mapid": "7-25F"
       },
       {
         "id": "fg2-f16",
         "label": "16/F",
-        "mapid": "16F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg2-f17",
         "label": "17/F",
-        "mapid": "17F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg2-f18",
         "label": "18/F",
-        "mapid": "18F"
+        "mapid": "7-25F"
       },
       {
         "id": "fg2-f19",
         "label": "19/F",
-        "mapid": "19F"
+        "mapid": "6-26F"
       },
+      {
+        "id": "fg2-f20",
+        "label": "20/F",
+        "mapid": "6-26F"
+      }
     ]
   },
   {
     "id": "fg3",
-    "label": "20/F - 26/F",
+    "label": "21/F - 29/F",
     "floors": [
       {
-        "id": "fg2-f20",
-        "label": "20/F",
-        "mapid": "20F"
-      },
-      {
-        "id": "fg2-f21",
+        "id": "fg3-f21",
         "label": "21/F",
-        "mapid": "21F"
+        "mapid": "7-25F"
       },
       {
         "id": "fg3-f22",
         "label": "22/F",
-        "mapid": "22F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg3-f23",
         "label": "23/F",
-        "mapid": "23F"
+        "mapid": "6-26F"
       },
       {
         "id": "fg3-f25",
         "label": "25/F",
-        "mapid": "25F"
+        "mapid": "7-25F"
       },
       {
         "id": "fg3-f26",
         "label": "26/F",
-        "mapid": "26F"
+        "mapid": "6-26F"
+      },
+      {
+        "id": "fg3-f27",
+        "label": "27/F",
+        "mapid": "27-28F"
+      },
+      {
+        "id": "fg3-f28",
+        "label": "28/F",
+        "mapid": "27-28F"
+      },
+      {
+        "id": "fg3-f29",
+        "label": "29/F",
+        "mapid": "29F"
       }
     ]
   },

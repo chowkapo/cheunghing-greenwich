@@ -1,6 +1,6 @@
 #!/bin/bash
 IPA_PATH=$1
-DESTINATION=/Volumes/Kingston/git/chowkapo.bitbucket.io/greenwich/greenwich.ipa
+DESTINATION=$HOME/git/chowkapo.bitbucket.io/greenwich/greenwich.ipa
 DATE=$(date +%Y%m%d-%H%M)
 DATEDISPLAY=$(date +'%Y-%m-%d %H:%M')
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -24,6 +24,7 @@ popd
 
 pushd "$( dirname "$DESTINATION" )"
 pwd
+git pull
 ls -l
 jq ".ios.updated=\"$DATEDISPLAY\"" app.json > app-$DATE.json
 mv app-$DATE.json app.json

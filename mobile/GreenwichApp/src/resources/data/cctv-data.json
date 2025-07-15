@@ -586,8 +586,8 @@
   },
   {
     "cameraId": 46,
-    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:554101/stream0",
-    "subStream": "rtsp://admin:Pass1234@113.212.233.23:554101/stream1",
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55501/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.23:55501/stream1",
     "monitor": [
       "EMO"
     ],
@@ -599,8 +599,8 @@
   },
   {
     "cameraId": 47,
-    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:554102/stream0",
-    "subStream": "rtsp://admin:Pass1234@113.212.233.23:554102/stream1",
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55502/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.23:55502/stream1",
     "monitor": [
       "EMO"
     ],
@@ -612,8 +612,8 @@
   },
   {
     "cameraId": 48,
-    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:554103/stream0",
-    "subStream": "rtsp://admin:Pass1234@113.212.233.23:554103/stream1",
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55503/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.23:55503/stream1",
     "monitor": [
       "EMO"
     ],
@@ -625,8 +625,8 @@
   },
   {
     "cameraId": 49,
-    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:554106/stream0",
-    "subStream": "rtsp://admin:Pass1234@113.212.233.23:554106/stream1",
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55506/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.23:55506/stream1",
     "monitor": [
       "EMO"
     ],
@@ -638,8 +638,8 @@
   },
   {
     "cameraId": 50,
-    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:554108/stream0",
-    "subStream": "rtsp://admin:Pass1234@113.212.233.23:554108/stream1",
+    "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55508/stream0",
+    "subStream": "rtsp://admin:Pass1234@113.212.233.23:55508/stream1",
     "monitor": [
       "EMO"
     ],

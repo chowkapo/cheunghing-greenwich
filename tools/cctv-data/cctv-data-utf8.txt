@@ -1,5 +1,5 @@
 Camera No.	Location	 Main Stream Link	Sub Stream Link	Monitor	Map ID	X	Y
-1	UR/F ST-1	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=1	EMO	URF1	773	1186
+1	UR1/F ST-1	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=1	EMO	URF1	773	1186
 2	R/F ST-1	rtsp://admin:admin888888@113.212.233.23:55419/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55419/cam/realmonitor?channel=1&subtype=1	EMO	RF	524	428
 3	R/F ST-2	rtsp://admin:admin888888@113.212.233.23:55401/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55401/cam/realmonitor?channel=1&subtype=1	EMO	RF	800	428
 4	R/F Lift Lobby ST-1	rtsp://admin:admin888888@113.212.233.23:55409/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55409/cam/realmonitor?channel=1&subtype=1	EMO	RF	524	211
@@ -44,11 +44,11 @@ Camera No.	Location	 Main Stream Link	Sub Stream Link	Monitor	Map ID	X	Y
 43	1/F Lift Lobby 2	rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=1	EMO	1F	876	310
 44	1/F Lobby	rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=1	EMO	1F	719	311
 45	1/F ST-1	rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=1	EMO	1F	719	402
-46	Lift 1	rtsp://admin:Pass1234@113.212.233.23:554101/stream0	rtsp://admin:Pass1234@113.212.233.23:554101/stream1	EMO	GF	848	400
-47	Lift 2	rtsp://admin:Pass1234@113.212.233.23:554102/stream0	rtsp://admin:Pass1234@113.212.233.23:554102/stream1	EMO	GF	800	400
-48	Lift 3	rtsp://admin:Pass1234@113.212.233.23:554103/stream0	rtsp://admin:Pass1234@113.212.233.23:554103/stream1	EMO	GF	751	400
-49	Lift 4	rtsp://admin:Pass1234@113.212.233.23:554106/stream0	rtsp://admin:Pass1234@113.212.233.23:554106/stream1	EMO	GF	911	152
-50	Lift 5	rtsp://admin:Pass1234@113.212.233.23:554108/stream0	rtsp://admin:Pass1234@113.212.233.23:554108/stream1	EMO	GF	249	294
+46	Lift 1	rtsp://admin:Pass1234@113.212.233.23:55501/stream0	rtsp://admin:Pass1234@113.212.233.23:55501/stream1	EMO	GF	848	400
+47	Lift 2	rtsp://admin:Pass1234@113.212.233.23:55502/stream0	rtsp://admin:Pass1234@113.212.233.23:55502/stream1	EMO	GF	800	400
+48	Lift 3	rtsp://admin:Pass1234@113.212.233.23:55503/stream0	rtsp://admin:Pass1234@113.212.233.23:55503/stream1	EMO	GF	751	400
+49	Lift 4	rtsp://admin:Pass1234@113.212.233.23:55506/stream0	rtsp://admin:Pass1234@113.212.233.23:55506/stream1	EMO	GF	911	152
+50	Lift 5	rtsp://admin:Pass1234@113.212.233.23:55508/stream0	rtsp://admin:Pass1234@113.212.233.23:55508/stream1	EMO	GF	249	294
 51	G/F Mail Box	rtsp://admin:admin888888@113.212.233.23:55403/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55403/cam/realmonitor?channel=1&subtype=1	EMO	GF	845	305
 52	G/F Lobby	rtsp://admin:admin888888@113.212.233.23:55450/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55450/cam/realmonitor?channel=1&subtype=1	EMO	GF	748	353
 53	G/F ST-1	rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=1	EMO	GF	991	501

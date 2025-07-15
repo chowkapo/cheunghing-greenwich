@@ -28,6 +28,10 @@ const CctvGrid = ({
   const [focusedCamera, setFocusedCamera] = React.useState<number | null>(null);
   const [errorCount, setErrorCount] = React.useState(0);
 
+  const currentCamera = cctvCameraLocationList.find(
+    v => v.cameraId === focusedCamera,
+  );
+
   return (
     <View style={styles.cctvAccessContainer}>
       {focusedCamera !== null && (
@@ -44,9 +48,7 @@ const CctvGrid = ({
                 </View>
                 <Text style={styles.cctvName}>
                   {
-                    cctvCameraLocationList.find(
-                      v => v.cameraId === focusedCamera,
-                    )?.cameraName
+                    currentCamera?.cameraName ?? currentCamera?.location ?? ''
                   }
                 </Text>
               </View>

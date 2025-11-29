@@ -12,8 +12,6 @@ export const api = {
   transactionPollUrl: (minTransId = 0, limit = doorAccessQueryCount) =>
     `${acsBaseUrl}Transact/LongPoll?TransID=${minTransId}&Limit=${limit}`,
   inputPointStatusUrl: `${imsBaseUrl}InputPoint/Status`,
-  // cardQueryUrl: () => `${acsBaseUrl}Card`,
-  // cardImageUrl: ({ cardId }) => `${acsBaseUrl}Card/${cardId}/image`,
   imsTransactUrl: (transId = 0, limit = sensorRecordQueryCount) =>
     `${imsBaseUrl}Transact/?TransID=${transId}&Limit=${limit}`,
   modbusChannelQueryUrl: (channelIds: number[]) => {

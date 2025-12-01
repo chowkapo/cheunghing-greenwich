@@ -1,5 +1,5 @@
 Camera No.	Location	 Main Stream Link	Sub Stream Link	Monitor	Map ID	X	Y
-1	UR1/F ST-1	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=1	EMO	URF1	773	1186
+1	UR/F ST-1	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55437/cam/realmonitor?channel=1&subtype=1	EMO	URF1	773	1186
 2	R/F ST-1	rtsp://admin:admin888888@113.212.233.23:55419/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55419/cam/realmonitor?channel=1&subtype=1	EMO	RF	524	428
 3	R/F ST-2	rtsp://admin:admin888888@113.212.233.23:55401/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55401/cam/realmonitor?channel=1&subtype=1	EMO	RF	800	428
 4	R/F Lift Lobby ST-1	rtsp://admin:admin888888@113.212.233.23:55409/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55409/cam/realmonitor?channel=1&subtype=1	EMO	RF	524	211
@@ -33,7 +33,7 @@ Camera No.	Location	 Main Stream Link	Sub Stream Link	Monitor	Map ID	X	Y
 32	3/F -4	rtsp://admin:admin888888@113.212.233.23:55433/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55433/cam/realmonitor?channel=1&subtype=1	EMO	3F	682	139
 33	3/F -5	rtsp://admin:admin888888@113.212.233.23:55436/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55436/cam/realmonitor?channel=1&subtype=1	EMO	3F	366	124
 34	2/F 	rtsp://admin:admin888888@113.212.233.23:55444/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55444/cam/realmonitor?channel=1&subtype=1	EMO	2F	914	309
-35	2/F Lift 4 Lobby	rtsp://admin:admin888888@113.212.233.23:55414/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55414/cam/realmonitor?channel=1&subtype=1	EMO	2F	863	164
+35	2/F Lift 4 Lobby	rtsp://admin:admin888888@113.212.233.23:55414/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55414/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	2F	863	164
 36	2/F Function Room 1	rtsp://admin:admin888888@113.212.233.23:55415/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55415/cam/realmonitor?channel=1&subtype=1	EMO	2F	727	260
 37	2/F Function Room 2-1	rtsp://admin:admin888888@113.212.233.23:55405/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55405/cam/realmonitor?channel=1&subtype=1	EMO	2F	943	274
 38	2/F Function Room 2-2	rtsp://admin:admin888888@113.212.233.23:55404/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55404/cam/realmonitor?channel=1&subtype=1	EMO	2F	953	116
@@ -41,29 +41,29 @@ Camera No.	Location	 Main Stream Link	Sub Stream Link	Monitor	Map ID	X	Y
 40	2/F GYM Room 1	rtsp://admin:admin888888@113.212.233.23:55421/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55421/cam/realmonitor?channel=1&subtype=1	EMO	2F	712	119
 41	2/F GYM Room 2	rtsp://admin:admin888888@113.212.233.23:55422/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55422/cam/realmonitor?channel=1&subtype=1	EMO	2F	444	191
 42	2/F GYM Room 3	rtsp://admin:admin888888@113.212.233.23:55430/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55430/cam/realmonitor?channel=1&subtype=1	EMO	2F	353	118
-43	1/F Lift Lobby 2	rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=1	EMO	1F	876	310
-44	1/F Lobby	rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=1	EMO	1F	719	311
-45	1/F ST-1	rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=1	EMO	1F	719	402
+43	1/F Lift Lobby 2	rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	1F	876	310
+44	1/F Lobby	rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	1F	719	311
+45	1/F ST-1	rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	1F	719	402
 46	Lift 1	rtsp://admin:Pass1234@113.212.233.23:55501/stream0	rtsp://admin:Pass1234@113.212.233.23:55501/stream1	EMO	GF	848	400
 47	Lift 2	rtsp://admin:Pass1234@113.212.233.23:55502/stream0	rtsp://admin:Pass1234@113.212.233.23:55502/stream1	EMO	GF	800	400
 48	Lift 3	rtsp://admin:Pass1234@113.212.233.23:55503/stream0	rtsp://admin:Pass1234@113.212.233.23:55503/stream1	EMO	GF	751	400
-49	Lift 4	rtsp://admin:Pass1234@113.212.233.23:55506/stream0	rtsp://admin:Pass1234@113.212.233.23:55506/stream1	EMO	GF	911	152
-50	Lift 5	rtsp://admin:Pass1234@113.212.233.23:55508/stream0	rtsp://admin:Pass1234@113.212.233.23:55508/stream1	EMO	GF	249	294
+49	Lift 4	rtsp://admin:Pass1234@113.212.233.23:55506/stream0	rtsp://admin:Pass1234@113.212.233.23:55506/stream1	EMO + Commercial	GF	911	152
+50	Lift 5	rtsp://admin:Pass1234@113.212.233.23:55508/stream0	rtsp://admin:Pass1234@113.212.233.23:55508/stream1	EMO + Commercial	GF	249	294
 51	G/F Mail Box	rtsp://admin:admin888888@113.212.233.23:55403/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55403/cam/realmonitor?channel=1&subtype=1	EMO	GF	845	305
 52	G/F Lobby	rtsp://admin:admin888888@113.212.233.23:55450/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55450/cam/realmonitor?channel=1&subtype=1	EMO	GF	748	353
-53	G/F ST-1	rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=1	EMO	GF	991	501
+53	G/F ST-1	rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	GF	991	501
 54	G/F ST-2	rtsp://admin:admin888888@113.212.233.23:55425/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55425/cam/realmonitor?channel=1&subtype=1	EMO	GF	890	479
-55	G/F Lift Lobby 4	rtsp://admin:admin888888@113.212.233.23:55412/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55412/cam/realmonitor?channel=1&subtype=1	EMO	GF	854	65
+55	G/F Lift Lobby 4	rtsp://admin:admin888888@113.212.233.23:55412/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55412/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	GF	854	65
 56	B/F	rtsp://admin:admin888888@113.212.233.23:55451/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55451/cam/realmonitor?channel=1&subtype=1	EMO	BF	473	266
 57	B/F ST-3	rtsp://admin:admin888888@113.212.233.23:55452/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55452/cam/realmonitor?channel=1&subtype=1	EMO	BF	908	339
 58	B/F ST-5	rtsp://admin:admin888888@113.212.233.23:55453/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55453/cam/realmonitor?channel=1&subtype=1	EMO	BF	19	237
 59	2/F Out side Play Ground -1	rtsp://admin:admin888888@113.212.233.23:55454/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55454/cam/realmonitor?channel=1&subtype=1	EMO	2F	297	267
 60	2/F Out side Play Ground -2	rtsp://admin:admin888888@113.212.233.23:55455/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55455/cam/realmonitor?channel=1&subtype=1	EMO	2F	297	261
-61	1/F Lift 5 Lobby	rtsp://admin:admin888888@113.212.233.23:55456/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55456/cam/realmonitor?channel=1&subtype=1	EMO	1F	262	302
-							
-							
-							
-							
+61	1/F Lift 5 Lobby	rtsp://admin:admin888888@113.212.233.23:55456/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55456/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	1F	262	302
+62	G/F-1	rtsp://admin:admin888888@113.212.233.23:55457/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55457/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	GF	734	100
+63	G/F Lift 5 Lobby	rtsp://admin:admin888888@113.212.233.23:55458/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55458/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	GF	364	507
+64	1/F Lift 4 Lobby	rtsp://admin:admin888888@113.212.233.23:55459/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55459/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	1F	969	115
+65	1/F Covered Passage	rtsp://admin:admin888888@113.212.233.23:55460/cam/realmonitor?channel=1&subtype=0	rtsp://admin:admin888888@113.212.233.23:55460/cam/realmonitor?channel=1&subtype=1	EMO + Commercial	1F	602	445
 							
 							
 							

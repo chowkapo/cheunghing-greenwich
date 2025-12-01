@@ -9,8 +9,8 @@
     "mapid": "URF1",
     "x": 773,
     "y": 1186,
-    "location": "UR1/F ST-1",
-    "floor": "UR1/F"
+    "location": "UR/F ST-1",
+    "floor": "UR/F"
   },
   {
     "cameraId": 2,
@@ -446,7 +446,8 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55414/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55414/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "2F",
     "x": 863,
@@ -550,7 +551,8 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55418/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "1F",
     "x": 876,
@@ -563,7 +565,8 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55420/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "1F",
     "x": 719,
@@ -576,7 +579,8 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55429/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "1F",
     "x": 719,
@@ -628,7 +632,8 @@
     "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55506/stream0",
     "subStream": "rtsp://admin:Pass1234@113.212.233.23:55506/stream1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "GF",
     "x": 911,
@@ -641,7 +646,8 @@
     "mainStream": "rtsp://admin:Pass1234@113.212.233.23:55508/stream0",
     "subStream": "rtsp://admin:Pass1234@113.212.233.23:55508/stream1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "GF",
     "x": 249,
@@ -680,7 +686,8 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55428/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "GF",
     "x": 991,
@@ -706,7 +713,8 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55412/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55412/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "GF",
     "x": 854,
@@ -784,12 +792,69 @@
     "mainStream": "rtsp://admin:admin888888@113.212.233.23:55456/cam/realmonitor?channel=1&subtype=0",
     "subStream": "rtsp://admin:admin888888@113.212.233.23:55456/cam/realmonitor?channel=1&subtype=1",
     "monitor": [
-      "EMO"
+      "EMO",
+      "Commercial"
     ],
     "mapid": "1F",
     "x": 262,
     "y": 302,
     "location": "1/F Lift 5 Lobby",
+    "floor": "1/F"
+  },
+  {
+    "cameraId": 62,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.23:55457/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.23:55457/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO",
+      "Commercial"
+    ],
+    "mapid": "GF",
+    "x": 734,
+    "y": 100,
+    "location": "G/F-1",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 63,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.23:55458/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.23:55458/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO",
+      "Commercial"
+    ],
+    "mapid": "GF",
+    "x": 364,
+    "y": 507,
+    "location": "G/F Lift 5 Lobby",
+    "floor": "G/F"
+  },
+  {
+    "cameraId": 64,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.23:55459/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.23:55459/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO",
+      "Commercial"
+    ],
+    "mapid": "1F",
+    "x": 969,
+    "y": 115,
+    "location": "1/F Lift 4 Lobby",
+    "floor": "1/F"
+  },
+  {
+    "cameraId": 65,
+    "mainStream": "rtsp://admin:admin888888@113.212.233.23:55460/cam/realmonitor?channel=1&subtype=0",
+    "subStream": "rtsp://admin:admin888888@113.212.233.23:55460/cam/realmonitor?channel=1&subtype=1",
+    "monitor": [
+      "EMO",
+      "Commercial"
+    ],
+    "mapid": "1F",
+    "x": 602,
+    "y": 445,
+    "location": "1/F Covered Passage",
     "floor": "1/F"
   }
 ]

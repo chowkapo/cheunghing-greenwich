@@ -20,14 +20,8 @@ import {
 */
 
 const locationMaskMapping = [
-  'Carpark', // 1
-  'Retail', // 2
-  'CH', // 4
-  'T8&TL', // 8
-  'T6&T7', // 16
-  'T3&T5', // 32
-  'T1&T2', // 64
-  'EMO', // 128
+  'EMO', // 1
+  'Commercial', // 2
 ];
 
 export const maskToLocations = (locationMask: number) => {

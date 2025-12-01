@@ -133,11 +133,13 @@ export const alertTypeMap: {
   [system: string]: string;
 } = {
   水缸監察系統: 'watertank',
-  水浸監察系統: 'leakage',
-  出路門監察系統: 'door',
+  水滲漏監察系統: 'leakage',
+  門磁感應監察系統: 'door',
   緊急召喚監察系統: 'emergency',
   升降機監察系統: 'lift',
   減壓閥監察系統: 'valve',
+  電氣監察系統: 'electric',
+  供水監察系統: 'water',
 };
 
 export const classifyAlert = ({
@@ -162,12 +164,14 @@ export const classifyAlert = ({
 const alertSystemName: {
   [id: string]: string;
 } = {
-  leakage: '水浸',
-  door: '出路門',
+  leakage: '水滲漏',
+  door: '門磁感應',
   emergency: '緊急召喚',
   watertank: '水缸',
   valve: '減壓閥',
   lift: '電梯',
+  electric: '電氣',
+  water: '供水',
 };
 
 export const getAlertSystemName = (alertCode: string) =>

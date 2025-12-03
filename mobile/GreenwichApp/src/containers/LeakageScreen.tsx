@@ -65,12 +65,12 @@ const LeakageScreen = ({navigation}: {navigation: TNavigationProp}) => {
   }, [navigation]);
 
   React.useEffect(() => {
-    // const locations = maskToLocations(locationMask);
+    const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
-      // locations,
+      locations
     });
     setHierarchy(menu);
   }, [locationMask]);

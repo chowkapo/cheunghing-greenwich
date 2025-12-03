@@ -1,9 +1,9 @@
 import * as React from 'react';
 import inputPoints from '../resources/data/input-point.json';
-import {StyleSheet, ScrollView, View} from 'react-native';
+import { StyleSheet, ScrollView, View } from 'react-native';
 import TypeHierarchicalMenu from '../components/TypeHierarchicalMenu';
 import SignalStatusLegend from '../components/SignalStatusLegend';
-import {useAppSelector, useAppDispatch} from '../store';
+import { useAppSelector, useAppDispatch } from '../store';
 import ScreenTitle from '../components/ScreenTitle';
 import type {
   TSignalTypeSuffix,
@@ -11,9 +11,9 @@ import type {
   THierarchicalMenu,
   TNavigationProp,
 } from '../resources/types';
-import {changeAlertMode} from '../features/user/userSlice';
-import type {NavigationProp} from '@react-navigation/native';
-import {makeHierarchicalMenu} from '../utils/helper';
+import { changeAlertMode } from '../features/user/userSlice';
+import type { NavigationProp } from '@react-navigation/native';
+import { makeHierarchicalMenu, maskToLocations } from '../utils/helper';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 
 const targetType = '電氣監察系統';
@@ -21,10 +21,10 @@ const alertType = 'electric';
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'Electricity'>;
 
 const signalTypes: TSignalTypeSuffix[] = [
-  {suffix: '正常', signalType: 'normalOrMalfunction', heading: '正常/故障'},
-  {suffix: '故障', signalType: 'malFunction'},
-  {suffix: '運行', signalType: 'runOrStop', heading: '運行/停止'},
-  {suffix: '', signalType: 'default'},
+  { suffix: '正常', signalType: 'normalOrMalfunction', heading: '正常/故障' },
+  { suffix: '故障', signalType: 'malFunction' },
+  { suffix: '運行', signalType: 'runOrStop', heading: '運行/停止' },
+  { suffix: '', signalType: 'default' },
 ];
 
 const customSignalPresentation = {
@@ -58,13 +58,14 @@ const customSignalPresentation = {
   }
 };
 
-const ElectricityScreen = ({navigation}: {navigation: TNavigationProp}) => {
+const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [hierarchy, setHierarchy] = React.useState<THierarchicalMenu>({});
   const [selectedChain, setSelectedChain] = React.useState<number[]>([]);
   const [focused, setFocused] = React.useState(false);
   const demoMode = useAppSelector(state => state.user.demoMode);
   const dispatch = useAppDispatch();
   const alertEnabled = useAppSelector(state => state.user.alertEnabled);
+  const locationMask = useAppSelector(state => state.user.locationMask);
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('focus', () => {
@@ -84,13 +85,15 @@ const ElectricityScreen = ({navigation}: {navigation: TNavigationProp}) => {
   }, [navigation]);
 
   React.useEffect(() => {
+    const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
+      locations
     });
     setHierarchy(menu);
-  }, []);
+  }, [locationMask]);
 
   const singleDefaultItem = React.useMemo(() => {
     const tier1 = Object.keys(hierarchy);

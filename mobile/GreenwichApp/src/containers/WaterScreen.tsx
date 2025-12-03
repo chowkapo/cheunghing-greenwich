@@ -13,7 +13,7 @@ import type {
 } from '../resources/types';
 import type { NavigationProp } from '@react-navigation/native';
 import { changeAlertMode } from '../features/user/userSlice';
-import { makeHierarchicalMenu } from '../utils/helper';
+import { makeHierarchicalMenu, maskToLocations } from '../utils/helper';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 
 const targetType = '供水監察系統';
@@ -68,6 +68,7 @@ const WaterScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const demoMode = useAppSelector(state => state.user.demoMode);
   const dispatch = useAppDispatch();
   const alertEnabled = useAppSelector(state => state.user.alertEnabled);
+    const locationMask = useAppSelector(state => state.user.locationMask);
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('focus', () => {
@@ -85,13 +86,15 @@ const WaterScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   }, [navigation]);
 
   React.useEffect(() => {
+    const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
+      locations
     });
     setHierarchy(menu);
-  }, []);
+  }, [locationMask]);
 
   const updateSelectedChain = (selected: number[]) => {
     setSelectedChain(selected);

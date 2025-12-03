@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# use command-line argument "--deploy" to include deployment after build
+set -o pipefail
 
+# use command-line argument "--deploy" to include deployment after build
 to_deploy=0
 
 for arg in "$@"; do
@@ -13,7 +14,7 @@ for arg in "$@"; do
 done
 
 echo "Unlock keychain to sign codes"
-security unlock-keychain
+security unlock-keychain -p "$KEY_CHAIN_UNLOCK_PASSWORD"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DATE=$(date +%Y%m%d-%H%M)
 DATEDISPLAY=$(date +'%Y-%m-%d %H:%M')
@@ -25,8 +26,17 @@ cd ..
 mkdir -p builds/$APP-$DATE
 
 cd mobile/$APP_FOLDER
-xcodebuild -workspace ios/$APP.xcworkspace/ -scheme $APP build
-xcodebuild -workspace ios/$APP.xcworkspace/ -scheme $APP -sdk iphoneos -configuration Release archive -archivePath ../../builds/$APP-$DATE/app.xcarchive
+xcodebuild -workspace ios/$APP.xcworkspace/ -scheme $APP -destination 'generic/platform=iOS' build -allowProvisioningUpdates -showBuildTimingSummary
+if [[ $? -ne 0 ]]; then
+  echo "❌ xcodebuild failed!"
+  exit 1
+fi
+
+xcodebuild -workspace ios/$APP.xcworkspace/ -scheme $APP -sdk iphoneos -configuration Release archive -archivePath ../../builds/$APP-$DATE/app.xcarchive -allowProvisioningUpdates -showBuildTimingSummary
+if [[ $? -ne 0 ]]; then
+  echo "❌ xcodebuild failed!"
+  exit 1
+fi
 
 cat > ../../builds/ExportOptions.plist << EOF
 <?xml version="1.0" encoding="UTF-8"?>

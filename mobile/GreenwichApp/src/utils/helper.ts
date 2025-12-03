@@ -289,6 +289,21 @@ export const getCctvCameraList = ({
   return list;
 };
 
+export const getAllAllowedCctvIds = ({
+  cctvCameraLocationList,
+  locationMask = 0,
+}: {
+  cctvCameraLocationList: TCctvCameraLocation[];
+  locationMask?: number;
+}) => {
+  const locations = maskToLocations(locationMask);
+  const list = cctvCameraLocationList
+    .filter(cctv => haveCommonElements(cctv.monitor, locations),
+    )
+    .map(cctv => cctv.cameraId);
+  return list;
+};
+
 export const getCctvMenuSelectedChainLabels = ({
   cctvMultiLevelMenus,
   selected,

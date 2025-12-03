@@ -25,10 +25,11 @@ import {
 } from '../features/user/userSlice';
 import { clearAcknowledgments } from '../features/event/eventSlice';
 import ScreenTitle from '../components/ScreenTitle';
-import type { TNavigationProp, TRootStackParamList } from '../resources/types';
+import type { TCctvCameraLocation, TNavigationProp, TRootStackParamList } from '../resources/types';
 import type { NavigationProp } from '@react-navigation/native';
 import { useLogger } from '../contexts/CustomLoggerService';
-import { maskToLocations } from '../utils/helper';
+import { getAllAllowedCctvIds, maskToLocations } from '../utils/helper';
+import cctvData from '../resources/data/cctv-data.json';
 
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'Settings'>;
 
@@ -46,6 +47,11 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [locationMaskForEdit, setLocationMaskForEdit] = React.useState('');
   const [cctvDialogOpen, setCctvDialogOpen] = React.useState(false);
   const [cctvDelimitedList, setCctvDelimitedList] = React.useState('');
+  const [cctvCameraLocationList, setCctvCameraLocationList] = React.useState<TCctvCameraLocation[]>([]);
+
+  React.useEffect(() => {
+    setCctvCameraLocationList(cctvData as TCctvCameraLocation[]);
+  }, []);
 
   const handleLogout = () => {
     return confirm({
@@ -67,7 +73,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   };
 
   const handleLocationMaskEdit = () => {
-    setLocationMaskForEdit(user.locationMask.toString());
+    setLocationMaskForEdit(user?.locationMask?.toString() ?? "");
     setLocationMaskDialogOpen(true);
   };
 
@@ -89,7 +95,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   };
 
   const handleRefreshFrequencyEdit = () => {
-    setRefreshFrequencyForEdit(user.refreshFrequency.toString());
+    setRefreshFrequencyForEdit(user?.refreshFrequency?.toString() ?? "");
     setRefreshFrequencyDialogOpen(true);
   };
 
@@ -111,18 +117,18 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   };
 
   const handleDemoModeToggle = () => {
-    dispatch(changeDemoMode(!user.demoMode));
-    if (!user.demoMode) {
+    dispatch(changeDemoMode(!user?.demoMode));
+    if (!user?.demoMode) {
       dispatch(clearAcknowledgments());
     }
   };
 
   const handleVideoStreamToggle = () => {
-    dispatch(changeVideoStream(!user.useMainStream));
+    dispatch(changeVideoStream(!user?.useMainStream));
   };
 
   const handleCctvEdit = () => {
-    setCctvDelimitedList(user.selectedCameras?.join(',') ?? '');
+    setCctvDelimitedList(user?.selectedCameras?.join(',') ?? '');
     setCctvDialogOpen(true);
   };
 
@@ -135,10 +141,17 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   };
 
   const handleCctvConfirmChange = () => {
+    const cameraList = cctvDelimitedList.split(',').map(v => parseInt(v, 10)) ?? []
+    const allowedCameraList = getAllAllowedCctvIds({
+      cctvCameraLocationList,
+      locationMask: user?.locationMask,
+    })
+    const validCameraList = cameraList.filter(v => allowedCameraList.includes(v));
+    if (validCameraList.length !== cameraList.length) {
+      logger.debug(`Some invalid camera IDs were removed: ${JSON.stringify(cameraList)} -> ${JSON.stringify(validCameraList)}`);
+    }
     dispatch(
-      changeSelectedCamera(
-        cctvDelimitedList.split(',').map(v => parseInt(v, 10) ?? []),
-      ),
+      changeSelectedCamera(validCameraList),
     );
     setCctvDialogOpen(false);
   };
@@ -153,11 +166,11 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
               <Text style={styles.headingText}>帳戶</Text>
             </View>
             <View style={styles.content}>
-              <Text style={styles.contentText}>{user.username}</Text>
+              <Text style={styles.contentText}>{user?.username}</Text>
             </View>
           </View>
 
-          {/*user.adminMode && (
+          {user?.adminMode && (
             <View style={styles.itemContainer}>
               <View style={styles.heading}>
                 <Text style={styles.headingText}>Location Mask</Text>
@@ -166,9 +179,9 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
                 <TouchableOpacity
                   onPress={handleLocationMaskEdit}
                   style={{ flex: 1 }}>
-                  <Text style={styles.contentText}>{`${user.locationMask
+                  <Text style={styles.contentText}>{`${user?.locationMask
                     } ${JSON.stringify(
-                      maskToLocations(user.locationMask),
+                      maskToLocations(user?.locationMask),
                     )}`}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
@@ -182,7 +195,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
                 </TouchableOpacity>
               </View>
             </View>
-          )*/}
+          )}
 
           <View style={styles.itemContainer}>
             <View style={styles.heading}>
@@ -192,7 +205,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
               <TouchableOpacity
                 onPress={handleRefreshFrequencyEdit}
                 style={{ flex: 1 }}>
-                <Text style={styles.contentText}>{user.refreshFrequency}</Text>
+                <Text style={styles.contentText}>{user?.refreshFrequency}</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 onPress={handleRefreshFrequencyEdit}
@@ -206,21 +219,21 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             </View>
           </View>
 
-          {user.adminMode && (
+          {user?.adminMode && (
             <View style={styles.itemContainer}>
               <View style={styles.heading}>
                 <Text style={styles.headingText}>演示模式</Text>
               </View>
               <View style={styles.content}>
                 <Text style={styles.contentText}>
-                  {user.demoMode ? '開啟' : '關閉'}
+                  {user?.demoMode ? '開啟' : '關閉'}
                 </Text>
                 <Switch
                   trackColor={{ false: '#767577', true: '#81b0ff' }}
-                  thumbColor={user.demoMode ? '#f5dd4b' : '#f4f3f4'}
+                  thumbColor={user?.demoMode ? '#f5dd4b' : '#f4f3f4'}
                   ios_backgroundColor="#3e3e3e"
                   onValueChange={handleDemoModeToggle}
-                  value={user.demoMode}
+                  value={user?.demoMode}
                 />
               </View>
             </View>
@@ -232,14 +245,14 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             </View>
             <View style={styles.content}>
               <Text style={styles.contentText}>
-                {user.useMainStream ? '啟動' : '關閉'}
+                {user?.useMainStream ? '啟動' : '關閉'}
               </Text>
               <Switch
                 trackColor={{ false: '#767577', true: '#81b0ff' }}
-                thumbColor={user.useMainStream ? '#f5dd4b' : '#f4f3f4'}
+                thumbColor={user?.useMainStream ? '#f5dd4b' : '#f4f3f4'}
                 ios_backgroundColor="#3e3e3e"
                 onValueChange={handleVideoStreamToggle}
-                value={user.useMainStream}
+                value={user?.useMainStream}
               />
             </View>
           </View>
@@ -250,7 +263,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             <View style={styles.content}>
               <TouchableOpacity onPress={handleCctvEdit} style={{ flex: 1 }}>
                 <Text style={styles.contentText}>
-                  {user.selectedCameras?.join(',') ?? ''}
+                  {user?.selectedCameras?.join(',') ?? ''}
                 </Text>
               </TouchableOpacity>
               <TouchableOpacity

@@ -1,18 +1,19 @@
 import * as React from 'react';
 import {
+  Animated,
   ImageBackground,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
-import {TCctvCameraLocation} from '../resources/types';
-import {VLCPlayer} from 'react-native-vlc-media-player';
+import { TCctvCameraLocation } from '../resources/types';
+import { VLCPlayer } from 'react-native-vlc-media-player';
 import loadingImage from '../resources/images/loading.gif';
 import loadingImageSmall from '../resources/images/loading_small.gif';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import {vlcPlayerInitOptions} from '../resources/config';
+import { vlcPlayerInitOptions } from '../resources/config';
 
 const CctvGrid = ({
   useMainStream,
@@ -27,10 +28,35 @@ const CctvGrid = ({
 }) => {
   const [focusedCamera, setFocusedCamera] = React.useState<number | null>(null);
   const [errorCount, setErrorCount] = React.useState(0);
+  const [loading, setLoading] = React.useState(true);
+  const [fadeAnim, setFadeAnim] = React.useState(new Animated.Value(1));
+  const isMounted = React.useRef(true);
 
-  const currentCamera = cctvCameraLocationList.find(
-    v => v.cameraId === focusedCamera,
-  );
+  React.useEffect(() => {
+    isMounted.current = true;
+    return () => {
+      isMounted.current = false;
+      fadeAnim.stopAnimation();
+    };
+  }, [fadeAnim]);
+
+  const currentCamera = React.useMemo(() => {
+    return cctvCameraLocationList.find(
+      v => v.cameraId === focusedCamera,
+    )
+  }, [focusedCamera, cctvCameraLocationList]);
+
+  const hideLoader = () => {
+    Animated.timing(fadeAnim, {
+      toValue: 0,
+      duration: 3000, // fade-out duration
+      useNativeDriver: true,
+    }).start((finished) => {
+      if (finished && isMounted.current) {
+        setLoading(false);
+      }
+    });
+  };
 
   return (
     <View style={styles.cctvAccessContainer}>
@@ -54,34 +80,48 @@ const CctvGrid = ({
               </View>
             </View>
             <TouchableOpacity
-              style={{
-                flex: 1,
-              }}
+              style={styles.cctvFocusedContainer}
               onPress={() => setFocusedCamera(null)}>
-              <ImageBackground
-                source={loadingImage}
-                resizeMode="center"
-                style={styles.playerBackgroundImage}>
-                <VLCPlayer
-                  style={styles.backgroundVideo}
-                  muted={true}
-                  autoAspectRatio={true}
-                  source={{
-                    uri: useMainStream
-                      ? cctvCameraLocationList.find(
-                          v => v.cameraId === focusedCamera,
-                        )?.mainStream
-                      : cctvCameraLocationList.find(
-                          v => v.cameraId === focusedCamera,
-                        )?.subStream,
-                    initOptions: vlcPlayerInitOptions,
-                  }}
-                  onError={(error: any) => {
+
+              <VLCPlayer
+                style={styles.backgroundVideo}
+                muted={true}
+                autoAspectRatio={true}
+                source={{
+                  uri: useMainStream
+                    ? cctvCameraLocationList.find(
+                      v => v.cameraId === focusedCamera,
+                    )?.mainStream
+                    : cctvCameraLocationList.find(
+                      v => v.cameraId === focusedCamera,
+                    )?.subStream,
+                  initOptions: vlcPlayerInitOptions,
+                }}
+                onPlaying={() => {
+                  console.debug('video stream onPlaying');
+                  hideLoader();
+                }}
+                onError={(error: any) => {
+                  if (isMounted.current) {
                     setErrorCount(value => value + 1);
-                    console.debug(error);
-                  }}
-                />
-              </ImageBackground>
+                  }
+                  console.debug(error);
+                }}
+              />
+              {loading && (
+                <Animated.View
+                  style={[
+                    styles.loadingOverlay,
+                    { opacity: fadeAnim },
+                  ]}
+                >
+                  <ImageBackground
+                    source={loadingImage}
+                    resizeMode="contain"
+                    style={styles.loadingImage}
+                  />
+                </Animated.View>
+              )}
             </TouchableOpacity>
           </View>
         </View>
@@ -90,7 +130,7 @@ const CctvGrid = ({
         <View
           style={[
             styles.cctvContainer,
-            focusedCamera !== null && {display: 'none'},
+            focusedCamera !== null && { display: 'none' },
           ]}>
           {Array.from(
             Array(
@@ -99,7 +139,7 @@ const CctvGrid = ({
           ).map(rowIndex => (
             <View
               key={rowIndex}
-              style={{flex: 1, display: 'flex', flexDirection: 'row'}}>
+              style={{ flex: 1, display: 'flex', flexDirection: 'row' }}>
               {Array.from(Array(screensPerRow).keys()).map(colIndex => {
                 const cctvIndex = rowIndex * screensPerRow + colIndex;
                 const camera = cctvCameraLocationList.find(
@@ -118,9 +158,11 @@ const CctvGrid = ({
                       borderWidth: 2,
                       borderStyle: 'solid',
                     }}
-                    onPress={() =>
+                    onPress={() => {
+                      setLoading(true)
+                      setFadeAnim(new Animated.Value(1))
                       setFocusedCamera(cctvSelectedList[cctvIndex])
-                    }>
+                    }}>
                     <ImageBackground
                       source={loadingImageSmall}
                       resizeMode="contain"
@@ -153,8 +195,9 @@ const CctvGrid = ({
             </View>
           ))}
         </View>
-      )}
-    </View>
+      )
+      }
+    </View >
   );
 };
 
@@ -218,6 +261,25 @@ const styles = StyleSheet.create({
   cctvName: {
     fontWeight: '600',
     fontSize: 18,
+  },
+  cctvFocusedContainer: {
+    flex: 1,
+    backgroundColor: 'lightgrey',
+    position: 'relative',
+  },
+  loadingOverlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white', // could also use 'rgba(255,255,255,0.8)'
+  },
+  loadingImage: {
+    width: 100,
+    height: 100,
   },
 });
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import {StyleSheet, View, Text, Modal, ImageBackground} from 'react-native';
-import {Button} from 'react-native-elements';
+import { StyleSheet, View, Text, Modal, ImageBackground, Animated } from 'react-native';
+import { Button } from 'react-native-elements';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {VLCPlayer} from 'react-native-vlc-media-player';
+import { VLCPlayer } from 'react-native-vlc-media-player';
 import loadingImage from '../resources/images/loading.gif';
 import { vlcPlayerInitOptions } from '../resources/config';
 
@@ -20,6 +20,30 @@ const CctvModal = ({
   title: string;
   onClose: () => void;
 }) => {
+  const [loading, setLoading] = React.useState(true);
+  const fadeAnim = React.useState(new Animated.Value(1))[0]; // start fully visible
+  const isMounted = React.useRef(true);
+
+  React.useEffect(() => {
+    isMounted.current = true;
+    return () => {
+      isMounted.current = false;
+      fadeAnim.stopAnimation();
+    };
+  }, [fadeAnim]);
+
+  const hideLoader = () => {
+    Animated.timing(fadeAnim, {
+      toValue: 0,
+      duration: 3000, // fade-out duration
+      useNativeDriver: true,
+    }).start((finished) => {
+      if (finished && isMounted.current) {
+        setLoading(false);
+      }
+    });
+  };
+
   return (
     <Modal
       animationType="none"
@@ -27,7 +51,8 @@ const CctvModal = ({
       transparent={true}
       visible={visible}
       presentationStyle="overFullScreen"
-      onRequestClose={onClose}>
+      onRequestClose={onClose}
+    >
       <View style={styles.curtain}>
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
@@ -39,7 +64,7 @@ const CctvModal = ({
               <Text style={styles.modalHeading}>{title}</Text>
             </View>
             <Button
-              icon={<MaterialIcons name="cancel" size={25} color="blue" />}
+              icon={<MaterialIcons name="cancel" size={25} color="red" />}
               type="clear"
               onPress={onClose}
               buttonStyle={styles.closeButton}
@@ -47,44 +72,53 @@ const CctvModal = ({
           </View>
 
           <View style={styles.cctvContainer}>
-            <ImageBackground
-              source={loadingImage}
-              resizeMode="center"
-              style={styles.playerBackgroundImage}>
-              <VLCPlayer
-                style={styles.backgroundVideo}
-                autoAspectRatio={true}
-                muted={true}
-                source={{
-                  uri: cctvUrl,
-                  initOptions: vlcPlayerInitOptions,
-                }}
-                onPlaying={() => {
-                  console.debug('video stream onPlaying');
-                }}
-                onOpen={() => {
-                  console.debug('video stream onOpen');
-                }}
-                onLoadStart={() => {
-                  console.debug('video streaming onLoadStart');
-                }}
-                onBuffering={() => {
-                  console.debug('video stream onBuffering');
-                }}
-                onProgress={({position}) => {
-                  console.debug(`video stream onProgress`);
-                  console.debug(`position = ${position}`);
-                }}
-              />
-            </ImageBackground>
+            <VLCPlayer
+              style={styles.backgroundVideo}
+              autoAspectRatio={true}
+              muted={true}
+              source={{
+                uri: cctvUrl,
+                initOptions: vlcPlayerInitOptions,
+              }}
+              onPlaying={() => {
+                console.debug('video stream onPlaying');
+                hideLoader();
+              }}
+              onOpen={() => {
+                console.debug('video stream onOpen');
+              }}
+              onLoadStart={() => {
+                console.debug('video streaming onLoadStart');
+              }}
+              onBuffering={() => {
+                console.debug('video stream onBuffering');
+              }}
+              onProgress={({ position }) => {
+                console.debug(`video stream onProgress`);
+                console.debug(`position = ${position}`);
+              }}
+            />
+
+            {loading && (
+              <Animated.View
+                style={[
+                  styles.loadingOverlay,
+                  { opacity: fadeAnim },
+                ]}
+              >
+                <ImageBackground
+                  source={loadingImage}
+                  resizeMode="contain"
+                  style={styles.loadingImage}
+                />
+              </Animated.View>
+            )}
           </View>
         </View>
       </View>
     </Modal>
   );
 };
-
-export default CctvModal;
 
 const styles = StyleSheet.create({
   curtain: {
@@ -94,36 +128,23 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
   modalContainer: {
-    display: 'flex',
     flexDirection: 'column',
-    // alignItems: 'center',
     justifyContent: 'space-between',
     width: '90%',
     height: '90%',
-    paddingTop: 0,
     backgroundColor: 'white',
-    // shadowOffset: {
-    //   width: 0,
-    //   height: 0
-    // },
-    // shadowOpacity: 0.7,
-    // shadowRadius: 15,
     borderRadius: 10,
     overflow: 'hidden',
   },
   modalHeader: {
-    display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     backgroundColor: 'lightgrey',
-    paddingTop: 12,
-    paddingBottom: 12,
-    paddingLeft: 24,
-    paddingRight: 24,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
   },
   cctvHeader: {
-    display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
   },
@@ -139,12 +160,7 @@ const styles = StyleSheet.create({
   cctvContainer: {
     flex: 1,
     backgroundColor: 'lightgrey',
-    position: 'relative',
-  },
-  playerBackgroundImage: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: 'white',
+    position: 'relative', // so overlay is positioned relative to this
   },
   backgroundVideo: {
     position: 'absolute',
@@ -153,9 +169,24 @@ const styles = StyleSheet.create({
     bottom: 0,
     right: 0,
   },
+  loadingOverlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white', // could also use 'rgba(255,255,255,0.8)'
+  },
+  loadingImage: {
+    width: 100,
+    height: 100,
+  },
   closeButton: {
     height: 40,
-    marginTop: 10,
-    marginBottom: 10,
+    marginVertical: 10,
   },
 });
+
+export default CctvModal;

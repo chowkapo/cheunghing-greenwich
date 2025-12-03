@@ -12,8 +12,18 @@ export const api = {
   transactionPollUrl: (minTransId = 0, limit = doorAccessQueryCount) =>
     `${acsBaseUrl}Transact/LongPoll?TransID=${minTransId}&Limit=${limit}`,
   inputPointStatusUrl: `${imsBaseUrl}InputPoint/Status`,
-  imsTransactUrl: (transId = 0, limit = sensorRecordQueryCount) =>
-    `${imsBaseUrl}Transact/?TransID=${transId}&Limit=${limit}`,
+  imsTransactUrl: ({ transId = 0, limit = sensorRecordQueryCount, locationMask = 0 }) => {
+    const params = {
+      TransID: String(transId),
+      Limit: String(limit),
+      LocationMask: String(locationMask),
+    }
+    // console.debug(`### imsTransactUrl params: ${JSON.stringify({ transId, limit, locationMask })}`);
+    // console.debug(`### imsTransactUrl params: ${JSON.stringify(params)}`);
+    const searchParams = new URLSearchParams(params).toString();
+    // console.debug(`### imsTransactUrl: ${searchParams}`);
+    return `${imsBaseUrl}Transact/?${searchParams}`;
+  },
   modbusChannelQueryUrl: (channelIds: number[]) => {
     const channelIdList = channelIds
       .map(id => `ModbusChannelID=${id}`)

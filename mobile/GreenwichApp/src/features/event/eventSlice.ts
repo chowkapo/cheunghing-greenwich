@@ -1,9 +1,10 @@
-import {PayloadAction, createAsyncThunk, createSlice} from '@reduxjs/toolkit';
-import {TEvent, TEventState, TIMSTransactRecord} from '../../resources/types';
+import { PayloadAction, createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit';
+import { IImsTransactApi, imsTransactApi } from '../../api/imsTransactApi';
+import { sensorRecordCountLimit } from '../../resources/config';
+import { TEvent, TEventState, TIMSTransactRecord } from '../../resources/types';
 import getErrorMessage from '../../utils/getErrorMessage';
-import {sensorRecordCountLimit} from '../../resources/config';
-import {IImsTransactApi, imsTransactApi} from '../../api/imsTransactApi';
-import {classifyAlert} from '../../utils/helper';
+import { classifyAlert } from '../../utils/helper';
+import { login, logout } from '../user/userSlice';
 
 const initialState: TEventState = {
   isRetrieving: false,
@@ -14,11 +15,12 @@ const initialState: TEventState = {
 
 type TEventData = {
   events: TIMSTransactRecord[];
+  locationMask?: number;
 };
 
 export const getNewEvents = createAsyncThunk<TEventData, IImsTransactApi>(
   'event/update',
-  async ({transactionId, authenticationToken}: IImsTransactApi, thunkApi) => {
+  async ({ transactionId, authenticationToken, locationMask }: IImsTransactApi, thunkApi) => {
     try {
       // const currentState = thunkApi.getState() as TEventState
       // if (currentState.isRetrieving) {
@@ -28,6 +30,7 @@ export const getNewEvents = createAsyncThunk<TEventData, IImsTransactApi>(
       const response = await imsTransactApi({
         transactionId,
         authenticationToken,
+        locationMask
       });
       // console.debug(
       //   `IMS transaction api response = ${JSON.stringify(response).substring(
@@ -40,6 +43,7 @@ export const getNewEvents = createAsyncThunk<TEventData, IImsTransactApi>(
       }
       return {
         events: [...response] as TIMSTransactRecord[],
+        locationMask
       } as TEventData;
     } catch (err) {
       return thunkApi.rejectWithValue(
@@ -48,9 +52,9 @@ export const getNewEvents = createAsyncThunk<TEventData, IImsTransactApi>(
     }
   },
   {
-    condition: (_arg, {getState}) => {
-      const currentState = getState();
-      const {isRetrieving} = (currentState?.event as TEventState) ?? {};
+    condition: (_arg, { getState }) => {
+      const currentState = getState() as { event: TEventState };
+      const { isRetrieving } = (currentState?.event as TEventState) ?? {};
       if (isRetrieving) {
         // console.debug('### IMS: previous call has not ended yet');
         return false;
@@ -92,7 +96,7 @@ export const eventSlice = createSlice({
       state.isRetrieving = true;
       state.error = null;
     });
-    builder.addCase(getNewEvents.rejected, (state, {payload}) => {
+    builder.addCase(getNewEvents.rejected, (state, { payload }) => {
       state.isRetrieving = false;
       state.error = payload as string;
       // console.debug(
@@ -102,7 +106,7 @@ export const eventSlice = createSlice({
       //   )}`,
       // );
     });
-    builder.addCase(getNewEvents.fulfilled, (state, {payload}) => {
+    builder.addCase(getNewEvents.fulfilled, (state, { payload }) => {
       state.isRetrieving = false;
       state.error = null;
 
@@ -119,11 +123,11 @@ export const eventSlice = createSlice({
               imsTransactRrecord.transID > (previousLastTransId ?? 0),
           )
           .map(imsTransactRrecord => {
-            const {controllerID, ioType, pointID} = imsTransactRrecord;
+            const { controllerID, ioType, pointID } = imsTransactRrecord;
             return {
               acknowledged: false,
               record: imsTransactRrecord,
-              system: classifyAlert({controllerID, ioType, pointID}),
+              system: classifyAlert({ controllerID, ioType, pointID }),
             };
           }) as unknown as TEvent[];
 
@@ -133,10 +137,18 @@ export const eventSlice = createSlice({
         // console.debug('### IMS, fulfilled, no new records');
       }
     });
+
+    builder.addMatcher(isAnyOf(login.fulfilled, logout), (state: TEventState, { payload }) => {
+      console.debug(`eventSlice login fulfilled, payload: ${JSON.stringify(payload)}`);
+      state.isRetrieving = false;
+      state.lastTransactionId = null;
+      state.events = [];
+      state.error = null;
+    })
   },
 });
 
-export const {purgeEvents, acknowledgeEvents, clearAcknowledgments} =
+export const { purgeEvents, acknowledgeEvents, clearAcknowledgments } =
   eventSlice.actions;
 
 export default eventSlice.reducer;

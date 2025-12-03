@@ -1,14 +1,16 @@
-import {api} from '../resources/api';
-import {TIMSTransactRecord} from '../resources/types';
+import { api } from '../resources/api';
+import { TIMSTransactRecord } from '../resources/types';
 
 export interface IImsTransactApi {
   transactionId?: number;
   authenticationToken: string;
+  locationMask?: number;
 }
 
 export const imsTransactApi = ({
   transactionId,
   authenticationToken,
+  locationMask,
 }: IImsTransactApi) => {
   const options = {
     method: 'GET',
@@ -17,7 +19,7 @@ export const imsTransactApi = ({
       Authorization: `Basic ${authenticationToken ?? ''}`,
     },
   };
-  const url = api.imsTransactUrl(transactionId);
+  const url = api.imsTransactUrl({ transId: transactionId, locationMask });
   // console.debug(
   //   `### IMS transact API url = ${url}, authenticationToken=${authenticationToken}`,
   // );

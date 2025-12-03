@@ -25,7 +25,7 @@ const Tab = createMaterialTopTabNavigator<TRootStackParamList>();
 const windowHeight = Dimensions.get('window').height;
 
 const App = () => {
-  const {username, refreshFrequency, authenticationToken, alertEnabled} =
+  const {username, refreshFrequency, authenticationToken, alertEnabled, locationMask} =
     useAppSelector(state => state.user) as TUserData;
   const {lastTransactionId: lastDoorAccessTransId} = useAppSelector(
     state => state.doorAccess,
@@ -54,6 +54,7 @@ const App = () => {
         getNewEvents({
           transactionId: lastEventTransId ?? 0,
           authenticationToken: authenticationToken,
+          locationMask,
         }),
       );
   };
